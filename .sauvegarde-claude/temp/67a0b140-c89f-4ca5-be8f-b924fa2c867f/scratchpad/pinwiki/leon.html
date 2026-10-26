@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Leon Borre Williams WPC and WPC-95 Driver Board Repair - PinWiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"ahjDbos9uo_ywY5-Z2L2FAACQFw","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair","wgTitle":"Leon Borre Williams WPC and WPC-95 Driver Board Repair","wgCurRevisionId":9968,"wgRevisionId":9968,"wgArticleId":2419,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair","wgRelevantArticleId":2419,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true};
+RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","skins.vector.styles.legacy":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/wiki/load.php?lang=en&amp;modules=skins.vector.styles.legacy&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/wiki/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.39.13"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000"/>
+<link rel="icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="PinWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://www.pinwiki.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="PinWiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair rootpage-Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair skin-vector action-view skin-vector-legacy vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-disabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-disabled vector-feature-visual-enhancement-next-disabled"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Leon Borre Williams WPC and WPC-95 Driver Board Repair</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">From PinWiki</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p><font size="5" color="#0000FF"><b>WPC power drive board , bench test fixture and repair method.</b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:Swash4.gif" class="image"><img alt="Swash4.gif" src="/wiki/images/6/69/Swash4.gif" decoding="async" width="606" height="19" data-file-width="606" data-file-height="19" /></a></b></font>
+</p><p><font size="2"><b>And " thank you" to Ken Schwieker who corrected this article. </b></font>
+</p><p><font size="4" color="#FF0000"><b>Presentation.</b></font>
+</p><p><font size="3"><b>We will use a simple self made tool that simulates all the selections and commands to the driver board , commands that normally come from the CPU board . By connecting this tool to the driver board all the command circuitry of the lamps, general illumination, coils etc will be activated. And we will control the results directly at the connectors where normally these items are connected to. At first we will control the circuitry as bridges and voltages to see if these are ok.</b></font>
+</p><p><font size="3"><b>Using this repair method the driver board will be tested and repaired in no time and out of the pinball, far more easy to work on any board if it's on the bench...</b></font>
+</p><p><font size="3"><b>Warning , if ever you receive a driver board that is " new" for you or from a other pinball to repair, never put it " as is" in a good working pinball machine .. Most voltages are made and distributed by this board and if something is wrong it can damage your pinball or toastl some coils..</b></font>
+</p><p><font size="3"><b>Note:</b></font>
+</p><p><font size="3"><b>About the WPC-95 driver board, this board is quite different in apperance to the other WPC driver boards, smaller fuses , other numbering of connectors etc..In this users manual all connector numbers and special remarks for the WPC-95 board will be in </b></font><font size="3" color="#00FF00"><b>GREEN letters or numbers. </b></font><font size="3" color="#000000"><b>If you want to know which sort of board you will find in which type of pinball machine look at Williams WPC <a href="/wiki/index.php/Williams_WPC#Game_List" title="Williams WPC">game list</a></b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:Swash1.gif" class="image"><img alt="Swash1.gif" src="/wiki/images/8/8c/Swash1.gif" decoding="async" width="594" height="8" data-file-width="594" data-file-height="8" /></a></b></font>
+</p><p><font size="4" color="#FF0000"><b>The board is still in the pinball machine. Before we start..</b></font>
+</p><p><font size="3"><b>To verify that the rectifiers and bridges and so on are ok, connect the unknown board to the pinball only by two connectors that is J101 and J103. </b></font><font size="3" color="#00FF00"><b>For WPC-95 connect J127,128 and 129,</b></font><font size="3"><b> This way all control LED's on the board have to go "on" and you can measure the voltages at the different test points , use the original schematic to do so. This way no voltages "leave" the driver as no lamps or coils are yet connected. This is specially needed when you have to repair a board coming from another pinball machine..." </b></font>
+</p><p><font size="3"><b>You have to measure 6 different voltages at test points&#160;; TP1=12 volts = LED7, TP2 = 5 volts =LED4,TP 3 = 12 volts = LED1, TP6 = 50 volts = NO LED, TP7 = 20 volts = LED5 and TP8 = 18 volts = LED6. If one or more are missing use the schematics and measure at different points to find out where things go wrong. This is common electrical stuff , so I cannot give more instructions on how to do that, if you are not able to repair this circuitry do not continue further interventions on any board..you have to aquire some basic insight, and skills.....</b></font>
+</p><p><font size="3" color="#00FF00"><b>WPC-95, TP103 =12 volts = LED 103, TP101 = 5 volts = LED 101, TP100 = 12 volts = LED 100, TP105 = 50 volts = LED 105, TP104 = 20 volts = LED 104 and TP102 = 18 volts = LED 102.</b></font>
+</p><p><font size="3"><b>That's all we have to do on a " unknown" board , before we test all the command circuitry by our method. The power drive board commands all the lamps , solenoids and some other circuitry, so after the control is finished it will be completely safe to put it in a pinball machine...</b></font>
+</p><p><font size="4"><b><a href="/wiki/index.php/File:Swash1.gif" class="image"><img alt="Swash1.gif" src="/wiki/images/8/8c/Swash1.gif" decoding="async" width="594" height="8" data-file-width="594" data-file-height="8" /></a></b></font>
+</p><p><font size="4" color="#FF0000"><b>Start and material needed;</b></font>
+</p><p><font size="3"><b>First we make a very simple tool that will simulate all the selection and commands who normally comes from the CPU board. It has a simple signal generator , two extra LED's and the connection cables.</b></font>
+</p><p><a href="/wiki/index.php/File:Wpcgerief.jpg" class="image"><img alt="Wpcgerief.jpg" src="/wiki/images/thumb/a/ac/Wpcgerief.jpg/200px-Wpcgerief.jpg" decoding="async" width="200" height="291" srcset="/wiki/images/thumb/a/ac/Wpcgerief.jpg/300px-Wpcgerief.jpg 1.5x, /wiki/images/thumb/a/ac/Wpcgerief.jpg/400px-Wpcgerief.jpg 2x" data-file-width="461" data-file-height="671" /></a>
+</p><p><font size="3"><b>What we need..not very much, adding a neat box to mount everything.</b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:Cable.jpg" class="image"><img alt="Cable.jpg" src="/wiki/images/thumb/0/0f/Cable.jpg/200px-Cable.jpg" decoding="async" width="200" height="116" srcset="/wiki/images/thumb/0/0f/Cable.jpg/300px-Cable.jpg 1.5x, /wiki/images/thumb/0/0f/Cable.jpg/400px-Cable.jpg 2x" data-file-width="500" data-file-height="289" /></a></b></font>
+</p><p><font size="3"><b>The flat cable fits exactly into J113 ( </b></font><font size="3" color="#00FF00"><b>J102</b></font><font size="3"><b> ) of the driver board, and comes from an old PC , where it was used to connect the floppy drive..</b></font>
+</p><p><font size="3"><b>Schematic and connections </b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:Tekening.gif" class="image"><img alt="Tekening.gif" src="/wiki/images/e/ec/Tekening.gif" decoding="async" width="600" height="871" data-file-width="600" data-file-height="871" /></a></b></font>
+</p><p><font size="3"><b>Better and complete schematic here ... </b></font><a href="/wiki/index.php/File:Siggen.pdf" title="File:Siggen.pdf"><img alt="Pinaqua.gif" src="/wiki/images/8/8a/Pinaqua.gif" decoding="async" width="20" height="20" data-file-width="20" data-file-height="20" /></a>
+</p><p><font size="3"><b>It is a signal generator that gives us a "strong" pulsing signal every 1/2 second that same pulsing will be easy to monitor on the output connectors and during the flow through out the board .</b></font>
+</p><p><font size="3"><b>The two LED's , one is a "on" indicator, the second indicate the good working of the generator , and will blink all the time, the connector, 9 leads together going to the signal generator output, and 9 leads going to the push button. Can it be more simple?</b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:Printaf.jpg" class="image"><img alt="Printaf.jpg" src="/wiki/images/thumb/0/07/Printaf.jpg/200px-Printaf.jpg" decoding="async" width="200" height="308" srcset="/wiki/images/0/07/Printaf.jpg 1.5x" data-file-width="212" data-file-height="326" /></a></b></font>
+</p><p><font size="3"><b>The little signal generator, red lead to the 5 volts , black is ground, gray lead is output</b></font>
+</p><p><a href="/wiki/index.php/File:Swash1.gif" class="image"><img alt="Swash1.gif" src="/wiki/images/8/8c/Swash1.gif" decoding="async" width="594" height="8" data-file-width="594" data-file-height="8" /></a>
+</p><p><font size="3"><b>Mount the little signal generator as on the schematic and we put everything in a handsome box , ready to use with leads to connect to a 5 volt supply, and two extra connection plugs and a push button, leads toward the power driver board to feed it ( 5 volts) and a flat cable , to J113 ( </b></font><font size="3" color="#00FF00"><b>J102</b></font><font size="3"><b> ) of the driver board. The flat cable is the same as used in a PC to connect the Floppy drive , easy to find...</b></font>
+</p><p><font size="3"><b>The finished box.</b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:Testeraf.jpg" class="image"><img alt="Testeraf.jpg" src="/wiki/images/thumb/f/f2/Testeraf.jpg/200px-Testeraf.jpg" decoding="async" width="200" height="257" srcset="/wiki/images/thumb/f/f2/Testeraf.jpg/300px-Testeraf.jpg 1.5x, /wiki/images/thumb/f/f2/Testeraf.jpg/400px-Testeraf.jpg 2x" data-file-width="551" data-file-height="707" /></a></b></font>
+</p><p><font size="3"><b>Banana plugs to feed the box ( 5 volts) two leads with grips to connect to the test points 5 and ground of the driver board , feeding the board that way, and the flat cable going to J113 ( </b></font><font size="3" color="#00FF00"><b>J102</b></font><font size="3"><b> ) . The two female banana connector plugs is again the 5 volts , this 5 volt output will be useful during test phase. </b></font>
+</p><p><a href="/wiki/index.php/File:Swash4.gif" class="image"><img alt="Swash4.gif" src="/wiki/images/6/69/Swash4.gif" decoding="async" width="606" height="19" data-file-width="606" data-file-height="19" /></a>
+</p><p><font size="5" color="#0000FF"><b>Users manual. </b></font>
+</p><p><font size="3"><b>Connect the box to the driver board ,flatcable to J113 ( </b></font><font size="3" color="#00FF00"><b>J102</b></font><font size="3"><b> ), hook up the 5 volts output ( clips) at test point 5 and ground.</b></font>
+</p><p><font size="3"><b>Connect the banana plugs into a 5 volt DC supply.</b></font>
+</p><p><font size="3"><b>The connected driver board </b></font>
+</p><p><a href="/wiki/index.php/File:Naaktopstel.jpg" class="image"><img alt="Naaktopstel.jpg" src="/wiki/images/thumb/7/74/Naaktopstel.jpg/200px-Naaktopstel.jpg" decoding="async" width="200" height="161" srcset="/wiki/images/thumb/7/74/Naaktopstel.jpg/300px-Naaktopstel.jpg 1.5x, /wiki/images/thumb/7/74/Naaktopstel.jpg/400px-Naaktopstel.jpg 2x" data-file-width="588" data-file-height="472" /></a>
+</p><p><font size="3"><b>Here you see the connections, at the left the 5 volt test point where the red clip is fixed, and more in the middle the ground test point where the black clip is connected. And of course the flat cable at J113. </b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:Swash1.gif" class="image"><img alt="Swash1.gif" src="/wiki/images/8/8c/Swash1.gif" decoding="async" width="594" height="8" data-file-width="594" data-file-height="8" /></a></b></font>
+</p><p><font size="4" color="#FF0000"><b>The control leds.</b></font>
+</p><p><font size="3"><b>As already used in several repair method for driver boards ( Williams, Bally Atari Zaccaria etc..) we use ,to control the outputs again a row of control leds .. Find here how these are made as already published on this site at several places..</b></font>
+</p><p><font size="3"><b>Schematic.</b></font>
+</p><p><a href="/wiki/index.php/File:Reeksled.gif" class="image"><img alt="Reeksled.gif" src="/wiki/images/2/2a/Reeksled.gif" decoding="async" width="446" height="222" data-file-width="446" data-file-height="222" /></a>
+</p><p><font size="3"><b>Material used.</b></font>
+</p><p><a href="/wiki/index.php/File:Lamppinnen.jpg" class="image"><img alt="Lamppinnen.jpg" src="/wiki/images/thumb/9/90/Lamppinnen.jpg/200px-Lamppinnen.jpg" decoding="async" width="200" height="246" srcset="/wiki/images/9/90/Lamppinnen.jpg 1.5x" data-file-width="224" data-file-height="276" /></a>
+</p><p><font size="3"><b>This type of connector strip is soldered at the underside of the little board</b></font>
+</p><p><a href="/wiki/index.php/File:Lampdrachter.jpg" class="image"><img alt="Lampdrachter.jpg" src="/wiki/images/thumb/7/7d/Lampdrachter.jpg/200px-Lampdrachter.jpg" decoding="async" width="200" height="161" srcset="/wiki/images/7/7d/Lampdrachter.jpg 1.5x" data-file-width="272" data-file-height="219" /></a>
+</p><p><font size="3"><b>Here you can see the connector strip soldered at the back side, this fine connector strip fits into the " Lamp columns" connector that has these fine pins.. </b></font>
+</p><p><a href="/wiki/index.php/File:Leds1.jpg" class="image"><img alt="Leds1.jpg" src="/wiki/images/thumb/d/d3/Leds1.jpg/200px-Leds1.jpg" decoding="async" width="200" height="180" srcset="/wiki/images/thumb/d/d3/Leds1.jpg/300px-Leds1.jpg 1.5x, /wiki/images/d/d3/Leds1.jpg 2x" data-file-width="400" data-file-height="360" /></a>
+</p><p><font size="3"><b>On the front side I soldered the other type of connector ( using short leads) this connector type fits into the bigger connectors at the driver board.This way the test-led- strip can be used on both connector types.The bigger connector is soldered at pin 1, pin3, pin 5 and so on ( impair numbers) and also the impair numbers are red leds the pair numbers are yellow/green leds . All this is helpful when to count and see later which pin of the connector gives us a led that blinks, "stays on" or stays off.</b></font>
+</p><p><a href="/wiki/index.php/File:Swash1.gif" class="image"><img alt="Swash1.gif" src="/wiki/images/8/8c/Swash1.gif" decoding="async" width="594" height="8" data-file-width="594" data-file-height="8" /></a>
+</p><p><font size="3"><b>Mounted with the test leds at connector J 127</b></font>
+</p><p><a href="/wiki/index.php/File:VolopstelWPC.jpg" class="image"><img alt="VolopstelWPC.jpg" src="/wiki/images/thumb/2/27/VolopstelWPC.jpg/200px-VolopstelWPC.jpg" decoding="async" width="200" height="130" srcset="/wiki/images/thumb/2/27/VolopstelWPC.jpg/300px-VolopstelWPC.jpg 1.5x, /wiki/images/thumb/2/27/VolopstelWPC.jpg/400px-VolopstelWPC.jpg 2x" data-file-width="642" data-file-height="416" /></a>
+</p><p><font size="3"><b>Here you see that the 5 volt plug on the box is handy to connect the led strip..</b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:DSC00003.jpg" class="image"><img alt="DSC00003.jpg" src="/wiki/images/thumb/d/dd/DSC00003.jpg/200px-DSC00003.jpg" decoding="async" width="200" height="159" srcset="/wiki/images/thumb/d/dd/DSC00003.jpg/300px-DSC00003.jpg 1.5x, /wiki/images/thumb/d/dd/DSC00003.jpg/400px-DSC00003.jpg 2x" data-file-width="600" data-file-height="478" /></a></b></font>
+</p><p><font size="3" color="#00FF00"><b>A WPC-95 board , the LED strip is connected at J116.</b></font>
+</p><p><font size="3"><b><a href="/wiki/index.php/File:Swash4.gif" class="image"><img alt="Swash4.gif" src="/wiki/images/6/69/Swash4.gif" decoding="async" width="606" height="19" data-file-width="606" data-file-height="19" /></a></b></font>
+</p><p><font size="5" color="#0000FF"><b>Handling</b></font>
+</p><p><font size="3"><b>There are three different types of power driver boards , type numbers are, A12697-1, A12697-3, A12697-4 and a driver board for the WPC 95 games, 20028.. The greatest difference between the three boards is that some WPC driver boards have no " flipper enable relay" . This relay situated at the left top of the board will be missing if you have a machine with a" fliptronic" board that commands the flippers.</b></font>
+</p><p><font size="3"><b>The test is valuable for all three WPC driver boards. The WPC-95 driver board technology almost the same, has as stated before other connector numbering and smaller fuses. If you want to know which pinball machine has which driver board, look at look at Williams WPC <a href="/wiki/index.php/Williams_WPC#Game_List" title="Williams WPC">game list</a> where all the WPC/ WPC-95 pinball machines and there different boards configurations are listed..</b></font>
+</p><p><font size="3"><b>We are going to control all outputs of the driver board these are at connectors; J 130, J 127, J 126,J 122, J 121,J 120,J 138and J 135. ( </b></font><font size="3" color="#00FF00"><b>J126,J123,J120,J116,J113,J112,J110,J109 and J106</b></font><font size="3"><b> ) At power up the flipper relay if present will click al the time...Output LED on the control box has to blink all the time.Sometimes the control LED's at any connector will not start to blink, or the flipper relay will not click.. For that, there is the push button on the control box, push him once or twice if needed so that the blinking starts or the relay start to click.( I have no reset coming from the cpu thats why we sometimes ( not often) have to start up with the push button..</b></font>
+</p><p><font size="3"><b>Find here the schematic of the power drive board ...... </b></font><a href="/wiki/index.php/File:WPC_power_drive_board.pdf" title="File:WPC power drive board.pdf"><img alt="Pinaqua.gif" src="/wiki/images/8/8a/Pinaqua.gif" decoding="async" width="20" height="20" data-file-width="20" data-file-height="20" /></a>
+</p><p><font size="3" color="#00FF00"><b>Schematics for WPC-95 board ...........</b></font><font size="3"><b><a href="/wiki/index.php/File:WPC95.pdf" title="File:WPC95.pdf"><img alt="Pinaqua.gif" src="/wiki/images/8/8a/Pinaqua.gif" decoding="async" width="20" height="20" data-file-width="20" data-file-height="20" /></a></b>
+</font></p><p><font size="3"><font size="3"><b><a href="/wiki/index.php/File:Swash1.gif" class="image"><img alt="Swash1.gif" src="/wiki/images/8/8c/Swash1.gif" decoding="async" width="594" height="8" data-file-width="594" data-file-height="8" /></a></b></font>
+</font></p><p><font size="3"><font size="3"><b>Connect the test LED strip at the connector indicated in red. If outputs are missing always use a logic probe to follow the missing signals as described further.</b></font>
+</font></p><p><font size="3"><font size="4" color="#FF0000"><b>J130</b></font>
+</font></p><p><font size="3"><font size="3"><b>Some of the outputs going also to J 132 and J131.But we can monitor all signals of this group at J 130. This group is named " High current solenoids " The control LED strip connected at this output pins has to show 8 blinking LED's.If there are some missing or staying lit, we follow the signals starting at U5 , from there to the pre-drivers, Q71,74,72,73,61,60,62 and 59 From there to the drivers, Q81,79,77,76,63,65,67 and 69, and at last to the power output transistors Q82,80,78,76,64,66,68 and 70,. Follow the missing signal , using the schematic and look where it still enters a transistor and fails to come out , easy enough. Replace the suspected element.</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J116</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>Some of the outputs going also to J 116 and J117.But we can monitor all signals of this group at J 116. This group is named " High current drivers " The control LED strip connected at this output pins has to show 8 blinking LED's. If there are some missing or staying lit, we follow the signals starting at U7 , from there to the pre-drivers, Q49 to Q56. From there to the drivers, Q61,57,62,58,63,59,64 and 60, and at last to the power output transistors Q65,69,66,70,67,71,68 and 72,. Follow the missing signal , using the schematic and look where it still enters a transistor and fales to come out , easy enough. Replace the suspected element.</b></font>
+</font></p><p><font size="3"><font size="4" color="#FF0000"><b>J127</b></font>
+</font></p><p><font size="3"><font size="3"><b>Again some of the outputs are going to other connectors ( J128, 129) but all 8 signals can be monitored at this J127.This group is named" Low current solenoids" .The start is at U4 and the drivers are Q57,55,53,51,49,47,45 and 43. The power out transistors are Q44,46,48,50,52,54,56,and 58. Here to when a output is missing follow the signals using the schematic, really no problem.</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J113</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>Again some of the outputs are going to other connectors ( J114, 115) but all 8 signals can be monitored at this J113.This group is named" Low current drivers". The start is at U6 and the drivers are Q33 to Q40. The power out transistors are Q45,41,46,42,47,43,48,and 44. Here the same scenario, when an output is missing follow the signal from his start at U6 until it disappears there the fault is situated, this using the schematic, really no problem.</b></font>
+</font></p><p><font size="3"><font size="4" color="#FF0000"><b>J122</b></font>
+</font></p><p><font size="3"><font size="3"><b>These are the " General purpose drivers" and the same signals are also coming to J123 and J124. We monitor at J122 there are only four LED's that must blink here. At pins 1, 2,3 and 4 . The signals start at U2, to the drivers Q19,21,23 and 25 and then to the power drivers Q20,22,24 and 26 .Again a very straight forward circuitry , easy to follow if there is one missing. Mostly it will be the power outputs ( TIP102) that will go bad..</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J110</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>A group called " Device control" using the LED test strip at J110, we must find 4 blinking LED's . On pins 1,2,3 and 4. The signal starts at U4 and passes twice a "gate" . All gates are in IC U3. Really 'straight forward' signals and if one is missing , the only possible cause can be a faulty U3.</b></font>
+</font></p><p><font size="3"><font size="4" color="#FF0000"><b>J126</b></font>
+</font></p><p><font size="3"><font size="3"><b>Eight more " General purpose drivers" some of them also going to J123. Here the signals start from U 3 to the 8 drivers, Q31,33,29,27,35,37,39 and 41 the output transistors ,again Tip102 are , Q32,34,30,28,36,38,40 and 42.</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J109</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>A first group of " General purpose drivers" , we find the same signals at J108 and J107, with the test LED strip at J109 we have 4 blinking LED's at pins 1,2,3 and 4. The signals are starting at U4, to the drivers Q9,10,11 and 12, en from there towards the power drivers, Q13, 14,15 and 16. A straight forward design , easy to follow, and if one is missing suspect always the output transistor TIP 102...</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J112</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>More " general purpose drivers" 8 of them. You find these signals also at J111. Here the signals starts at U5 to the 8 drivers , Q17 to Q24 and from there to the output transistors, Q29,25,30,26,31,27,32 and 28. </b></font>
+</font></p><p><font size="3"><font size="4" color="#FF0000"><b>J121</b></font>
+</font></p><p><font size="3"><font size="3"><b>Here we have the " General illumination" outputs, something special, these outputs are coming true TRIAC's and to control these we put of course the LED strip at J121, but we have to ground also pins 12, 11,10,8 and 7 of connector J115 . The outputs will blink 5 LED's. In many cases some LED's stay "on" all the time , even when you have a board that is "good" in the pinball machine.. How comes&#160;? Well the TRIAC is bad but stay's "on" ( conducting) all the time resulting in the general illumination to be on all the time at max strength, not possible to "dim" but as we not always " dim" the illumination this can be not noticed by the user..So be aware the control LED's have to blink!! In almost all cases it is the TRIAC that is bad.. If not look at the drivers they are Q17,9,13,15 and 11. The TRIAC's are at Q18,10,14,16 and 12.On the 5 big heat sinks.</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J106</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>Here we have the " General illumination" outputs, something special, these outputs are coming true TRIAC's and to control these we put of course the LED strip at J106, but we have to ground also pins 10,8 and 7 of connector J103 . The outputs will blink 3 LED's. In many cases some LED's stay "on" all the time , even when you have a board that is "good" in the pinball machine.. How comes&#160;? Well the TRIAC is bad but stay's "on" ( conducting) all the time resulting in the general illumination to be on all the time at max strenght, not possible to "dim" but as we not always " dim" the illumination this can be not noticed by the user..So be aware the control LED's have to blink!! In almost all cases it is the TRIAC that is bad.. If not look at the drivers they are Q6,7 and 8. The TRIAC's are at Q13,4 and 5.On the 3 big heat sinks. You can test also the "unswitched" outputs , the LED strip stay at J106 now ground pins 11 and 12 of J103, again two other LED's will light and will stay " on" all the time. You are controlling the diodes D25,26,29 and 30.</b></font>
+</font></p><p><font size="3"><font size="4" color="#FF0000"><b>J 138</b></font>
+</font></p><p><font size="3"><font size="3"><b>The " lamp columns" are a bit more tricky . We have , if ok, 8 outputs but the LED strip cannot be used.. The lamp columns work with 18 volts and we do not have that .. So we make a connection between the 5 volts and the 18 volt test pins on the board. And using a voltmeter, we have to measure each of the 8 pins to see the needle" dance" .Why we cannot use the LED strip instead , well polarity is reversed here and the LED's won't work. But using the voltmeter for just these 8 pins is not to bad.. Again if one missing follow the signals starting at U9 then through U18 driving the chip U19 and then the output transistors Q 91 to Q98.. </b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J123</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>The " lamp columns" are a bit more tricky . We have , if ok, 8 outputs but the LED strip cannot be used.. The lamp columns work with 18 volts and we do not have that .. So we make a connection between the 5 volts and the 18 volt test pins on the board. And using a voltmeter, we have to measure each of the 8 pins to see the needle" dance" .Why we cannot use the LED strip instead , well polarity is reversed here and the LED's won't work. But using the voltmeter for just these 8 pins is not to bad.. Again if one missing follow the signals starting at U10 then through U11 driving then the output transistors Q93 to Q100.. </b></font>
+</font></p><p><font size="3"><font size="4" color="#FF0000"><b>J135</b></font>
+</font></p><p><font size="3"><font size="3"><b>The lamp "rows" depending of the initial position of the flip-flops U10, 11 and 12 The 8 LED's will be "on" or "off" , push the button on the control box to change the position of the flip flops , if 8 LED's "on" all is ok. If one or more missing , as always follow the way..here starting at U10, 11 or 12 to the drivers ( TIP 102) Q83 to Q90</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J126</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>The lamp "rows" depending of the initial position of the flip-flops U12, 13, U14 and U15, the 8 LED's will be "on" or "off" , push the button on the control box to change the position of the flip flops , if 8 LED's "on" all is ok. If one or more missing , as always follow the way..here starting at the output pins of the flip-flop's Pin 6 and 8 , and from there directly to the ( TIP102) drivers Q101 to Q108.</b></font>
+</font></p><p><font size="3"><font size="3"><b>WPC</b></font>
+</font></p><p><font size="3"><font size="3"><b>If ever you have a "enable flippers" relay that never clicks , replace Q99. Of course other outputs have been tested and ok at that moment.</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>WPC-95</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>J120</b></font>
+</font></p><p><font size="3"><font size="3" color="#00FF00"><b>A group named "Flippers" here we have again 8 working outputs , but all 12 pins of the connector will blink the connected LED's. Some of the outputs are at two pins at the same time. Pin 2=3, pin 5=6, pin 8=9, pin 12=13. The signals are starting at U8 , passing the drivers Q73 to Q80, going to the output transistors, ( TIP102) Q81,83,86,84,89,87,92 nd 91.</b></font>
+</font></p><p><font size="3"><font size="3"><b>This terminates test of all controls of the driver board . If ever you still have lamps , or solenoids that do not work, well good hunting because you will have to dive under the playfield now, or you have bad contacts in your connectors....</b></font>
+</font></p>
+<!-- 
+NewPP limit report
+Cached time: 20260528223630
+Cache expiry: 86400
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.029 seconds
+Real time usage: 0.031 seconds
+Preprocessor visited node count: 110/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 1/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key pinwiki_mw2-mw_:pcache:idhash:2419-0!canonical and timestamp 20260528223630 and revision id 9968.
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://www.pinwiki.com/wiki/index.php?title=Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair&amp;oldid=9968">https://www.pinwiki.com/wiki/index.php?title=Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair&amp;oldid=9968</a>"</div></div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-login" class="mw-list-item"><a href="/wiki/index.php?title=Special:UserLogin&amp;returnto=Leon+Borre+Williams+WPC+and+WPC-95+Driver+Board+Repair" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/wiki/index.php/Special:RequestAccount" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Request account</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/index.php/Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair" title="View the content page [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/wiki/index.php?title=Talk:Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t"><span>Discussion</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Change language variant"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/index.php/Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair"><span>Read</span></a></li><li id="ca-viewsource" class="mw-list-item"><a href="/wiki/index.php?title=Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/wiki/index.php?title=Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+			<h3 >
+				<label for="searchInput">Search</label>
+			</h3>
+		<form action="/wiki/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search PinWiki" aria-label="Search PinWiki" autocapitalize="sentences" title="Search PinWiki [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search the pages for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/index.php/Main_Page"
+			title="Visit the main page"></a>
+	</div>
+	
+
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/index.php/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/index.php/Special:Random" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-help" class="mw-list-item"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" target="_blank" title="The place to find out"><span>Help</span></a></li><li id="n-Donate" class="mw-list-item"><a href="/wiki/index.php/Donations"><span>Donate</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/index.php/Special:WhatLinksHere/Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/index.php/Special:RecentChangesLinked/Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/wiki/index.php?title=Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair&amp;oldid=9968" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/wiki/index.php?title=Leon_Borre_Williams_WPC_and_WPC-95_Driver_Board_Repair&amp;action=info" title="More information about this page"><span>Page information</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 11 May 2013, at 19:24.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="/wiki/index.php/PinWiki:Privacy_policy">All copyrighted and trademarked Gottlieb® and Premier® material licensed from, and used with permission of, Gottlieb Development LLC.</a></li>
+	<li id="footer-places-about"><a href="/wiki/index.php/PinWiki:About">About PinWiki</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/index.php/PinWiki:General_disclaimer">Disclaimers</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" target="_blank"><img src="/wiki/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/wiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /wiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.029","walltime":"0.031","ppvisitednodes":{"value":110,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":1,"limit":100},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20260528223630","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":87});});</script>
+</body>
+<!-- Cached 20260528223630 -->
+</html>

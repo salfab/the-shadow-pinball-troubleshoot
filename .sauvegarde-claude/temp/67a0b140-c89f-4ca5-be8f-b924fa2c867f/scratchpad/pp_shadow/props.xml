@@ -1,0 +1,1719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Properties>
+  <tableOfContent>
+    <tocData>
+      <pageNumber value="1" />
+      <title value="" />
+      <children>
+        <tocData>
+          <pageNumber value="2" />
+          <title value="DIP SWITCH SETTINGSAND JUMPERS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="2" />
+          <title value="SOLENOID/FLASHER TABLE" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="4" />
+          <title value="IMPORTANT NOTICE" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="5" />
+          <title value="ATTENTION" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="7" />
+          <title value="TABLE OF CONTENTS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="10" />
+          <title value="Game Rules &amp; Shot Maps" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="11" />
+          <title value="RULES" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="12" />
+          <title value="PHURBA RAMP DIVERTORS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="13" />
+          <title value="SKILL SHOT" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="14" />
+          <title value="START SCENE" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="13" />
+          <title value="Scene 1: Punish the Guilty" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="14" />
+          <title value="Scene 2: Farley Claymore" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="15" />
+          <title value="Scene 3: Duel of Wills" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="15" />
+          <title value="Scene 4: The Beryllium Sphere" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="17" />
+          <title value="Scene 5: Escape Underwater Doom" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="18" />
+          <title value="Scene 6: Discover Hotel Monolith" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="19" />
+          <title value="BONUS X" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="21" />
+          <title value="EXTRA BALL" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="22" />
+          <title value="OUTER LOOPS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="23" />
+          <title value="INNER SHADOW LOOPS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="24" />
+          <title value="THE SATTLEFIELD" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="25" />
+          <title value="MONGOL ATTACK" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="26" />
+          <title value="VENGEANCE MODE" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="27" />
+          <title value="SHADOW MULTI-BALL" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="28" />
+          <title value="KHAN MULTI-BALL" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="29" />
+          <title value="FINAL BATTLE" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="32" />
+          <title value="GAME OPERATIONAND TEST INFORMATION" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="33" />
+          <title value="PINBALL GAME ASSEMBLY INSTRUCTIONS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="35" />
+          <title value="RAISING THE PLA YFIELD" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="37" />
+          <title value="GAME CONTROL LOCATIONS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="38" />
+          <title value="GAME OPERATION" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="39" />
+          <title value="MENU SYSTEM OPERATION" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="40" />
+          <title value="BOOKKEEPING MENU" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="44" />
+          <title value="PRINTOUTS MENU" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="45" />
+          <title value="TEST MENU" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="50" />
+          <title value="UpUTILITIES MENU" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="78" />
+          <title value="ERROR MESSAGES" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="82" />
+          <title value="LED List" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="82" />
+          <title value="Fuse List" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="84" />
+          <title value="MAINTENANCE INFORMATION" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="85" />
+          <title value="Major Component Service Instructions" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="86" />
+          <title value="Mini-playfield" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="92" />
+          <title value="Left And Right Divert Mechanisms" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="97" />
+          <title value="8ackbox Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="98" />
+          <title value="Cabinet Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="99" />
+          <title value="WPC CPU Security Board Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="100" />
+          <title value="Sound Board Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="101" />
+          <title value="Fliptronic II Board Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="102" />
+          <title value="Dot Matrix Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="103" />
+          <title value="WPC Power Driver Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="104" />
+          <title value="WPC Power Driver Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="105" />
+          <title value="Coin Door Interface PCB Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="105" />
+          <title value="Flipper Opto PCB Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="105" />
+          <title value="Trough 7 IRED PCB Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="106" />
+          <title value="Trough 7 IR TSTR PCB Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="106" />
+          <title value="5-Switch &amp; Diode PCB Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="107" />
+          <title value="10-0pto Switch PCB &amp; Bracket Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="107" />
+          <title value="Opto Switch PCB Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="108" />
+          <title value="Opto Sw-24 PCB Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="109" />
+          <title value="4-Bank Drop Target Opto Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="110" />
+          <title value="D.C. Motor Control PCB Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="111" />
+          <title value="Flipper Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="113" />
+          <title value="Kicker Arm (Slingshot) Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="114" />
+          <title value="Outhole Ball Trough Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="115" />
+          <title value="Tilt Mechanism Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="115" />
+          <title value="Knocker Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="116" />
+          <title value="Eject Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="116" />
+          <title value="Kicker Bracket Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="117" />
+          <title value="Ball Kicker Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="118" />
+          <title value="Extended Target Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="119" />
+          <title value="Divertor Mechanism Assembly (" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="120" />
+          <title value="Magnet &amp; Opto Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="121" />
+          <title value="Eject Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="122" />
+          <title value="Ball Popper Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="123" />
+          <title value="Mini-Playfield Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="124" />
+          <title value="Coil Slide Motor Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="125" />
+          <title value="4-8ank Drop Target Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="126" />
+          <title value="Gun Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="127" />
+          <title value="1-Bank Drop Target Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="128" />
+          <title value="Posts" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="129" />
+          <title value="Universal Power Interface Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="130" />
+          <title value="Universal Power Interface/Cordset Application Chart" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="132" />
+          <title value="Unique Parts" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="137" />
+          <title value="SOLENOID/FLASHER TABLE" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="139" />
+          <title value="UPPER PLAYFIELD PARTS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="141" />
+          <title value="LOWER PLAYFIELD PARTS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="141" />
+          <title value="RAMPS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="146" />
+          <title value="GAME WIRINGAND SCHEMATICS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="149" />
+          <title value="DEDICATED SWITCHES" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="149" />
+          <title value="DEDICATED SWITCH CIRCUIT" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="150" />
+          <title value="LAMP MATRIX CIRCUIT" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="152" />
+          <title value="SOLENOID WIRING" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="153" />
+          <title value="FLASHER WIRING" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="154" />
+          <title value="High Power Solenoid Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="154" />
+          <title value="Low Power Solenoid Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="155" />
+          <title value="General Illumination Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="155" />
+          <title value="Block Diagram of General Illumination Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="156" />
+          <title value="Photo Transistor P.C.B. Assembly (receiver" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="156" />
+          <title value="Flipper Opto p.e.B. Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="158" />
+          <title value="Flipper Circuit Diagram" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="159" />
+          <title value="Flipper Coil Circuits" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="159" />
+          <title value="Flipper End-o'-Stroke Switches" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="160" />
+          <title value="Flipper Cabinet Switch Circuit Diagram" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="160" />
+          <title value="Flipper Cabinet Switches" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="161" />
+          <title value="TROUGH 7 IRED PCB ASSEMBLY" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="162" />
+          <title value="D.C. MOTOR CONTROL P.C." />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="164" />
+          <title value="D.C. MOTOR CONTROL P.C.B. SCHEMATIC" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="165" />
+          <title value="OPTO SW10 P.C." />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="166" />
+          <title value="OPTO SW10 P.C.B. SCHEMATIC" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="168" />
+          <title value="OPTO SW24 P.C.B. SCHEMATIC" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="169" />
+          <title value="4-BANK DROP TARGET OPTO" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="169" />
+          <title value="5 SWITCH &amp; DIODE P.C." />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="171" />
+          <title value="Fliptronic II Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="172" />
+          <title value="Power Driver Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="175" />
+          <title value="Security CPU Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="175" />
+          <title value="Sound Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="176" />
+          <title value="Speaker Wiring Diagram" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="176" />
+          <title value="Dot Matrix Contoller Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="178" />
+          <title value="Coin Door Interface P.C.B. Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="179" />
+          <title value="Coin Door Interface P.C.B. Schematic" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="183" />
+          <title value="WARNINGS &amp; NOTICES" />
+          <children />
+        </tocData>
+      </children>
+    </tocData>
+  </tableOfContent>
+  <bookProperties>
+    <pages>
+      <defaultValue>
+        <BGColor value="#FFFFFF" />
+        <width value="612" />
+        <height value="792" />
+      </defaultValue>
+      <elements>
+        <page>
+          <links />
+          <id value="1" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="2" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="3" />
+          <width value="614" />
+          <height value="843" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="4" />
+          <width value="624" />
+          <height value="802" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="5" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="6" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="7" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="8" />
+          <width value="623" />
+          <height value="800" />
+        </page>
+        <page>
+          <links />
+          <id value="9" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="10" />
+        </page>
+        <page>
+          <links />
+          <id value="11" />
+          <width value="624" />
+          <height value="802" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="12" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="13" />
+          <width value="631" />
+          <height value="807" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="14" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="15" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="16" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="17" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="18" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="19" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="20" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="21" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="22" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="23" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="24" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="25" />
+          <width value="629" />
+          <height value="805" />
+        </page>
+        <page>
+          <links />
+          <id value="26" />
+        </page>
+        <page>
+          <links />
+          <id value="27" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="28" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="29" />
+          <width value="624" />
+          <height value="802" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="30" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="31" />
+        </page>
+        <page>
+          <links />
+          <id value="32" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="33" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="34" />
+          <width value="631" />
+          <height value="807" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="35" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="36" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="37" />
+        </page>
+        <page>
+          <links />
+          <id value="38" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="39" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="40" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="41" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="42" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="43" />
+        </page>
+        <page>
+          <links />
+          <id value="44" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="45" />
+        </page>
+        <page>
+          <links />
+          <id value="46" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="47" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="48" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="49" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="50" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="51" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="52" />
+          <width value="624" />
+          <height value="802" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="53" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="54" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="55" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="56" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="57" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="58" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="59" />
+        </page>
+        <page>
+          <links />
+          <id value="60" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="61" />
+          <width value="618" />
+          <height value="797" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="62" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="63" />
+          <width value="623" />
+          <height value="800" />
+        </page>
+        <page>
+          <links />
+          <id value="64" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="65" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="66" />
+          <width value="629" />
+          <height value="806" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="67" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="68" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="69" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="70" />
+        </page>
+        <page>
+          <links />
+          <id value="71" />
+        </page>
+        <page>
+          <links />
+          <id value="72" />
+        </page>
+        <page>
+          <links />
+          <id value="73" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="74" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="75" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="76" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="77" />
+        </page>
+        <page>
+          <links />
+          <id value="78" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="79" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="80" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="81" />
+        </page>
+        <page>
+          <links />
+          <id value="82" />
+        </page>
+        <page>
+          <links />
+          <id value="83" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="84" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="85" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="86" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="87" />
+        </page>
+        <page>
+          <links />
+          <id value="88" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="89" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="90" />
+        </page>
+        <page>
+          <links />
+          <id value="91" />
+        </page>
+        <page>
+          <links />
+          <id value="92" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="93" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="94" />
+          <width value="623" />
+          <height value="801" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="95" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="96" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="97" />
+        </page>
+        <page>
+          <links />
+          <id value="98" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="99" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="100" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="101" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="102" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="103" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="104" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="105" />
+          <width value="618" />
+          <height value="797" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="106" />
+        </page>
+        <page>
+          <links />
+          <id value="107" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="108" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="109" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="110" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="111" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="112" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="113" />
+        </page>
+        <page>
+          <links />
+          <id value="114" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="115" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="116" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="117" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="118" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="119" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="120" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="121" />
+        </page>
+        <page>
+          <links />
+          <id value="122" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="123" />
+        </page>
+        <page>
+          <links />
+          <id value="124" />
+        </page>
+        <page>
+          <links />
+          <id value="125" />
+        </page>
+        <page>
+          <links />
+          <id value="126" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="127" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="128" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="129" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="130" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="131" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="132" />
+        </page>
+        <page>
+          <links />
+          <id value="133" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="134" />
+          <width value="623" />
+          <height value="801" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="135" />
+        </page>
+        <page>
+          <links />
+          <id value="136" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="137" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="138" />
+        </page>
+        <page>
+          <links />
+          <id value="139" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="140" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="141" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="142" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="143" />
+        </page>
+        <page>
+          <links />
+          <id value="144" />
+        </page>
+        <page>
+          <links />
+          <id value="145" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="146" />
+        </page>
+        <page>
+          <links />
+          <id value="147" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="148" />
+        </page>
+        <page>
+          <links />
+          <id value="149" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="150" />
+          <width value="614" />
+          <height value="793" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="151" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="152" />
+        </page>
+        <page>
+          <links />
+          <id value="153" />
+        </page>
+        <page>
+          <links />
+          <id value="154" />
+        </page>
+        <page>
+          <links />
+          <id value="155" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="156" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="157" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="158" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="159" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="160" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="161" />
+        </page>
+        <page>
+          <links />
+          <id value="162" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="163" />
+        </page>
+        <page>
+          <links />
+          <id value="164" />
+        </page>
+        <page>
+          <links />
+          <id value="165" />
+          <width value="618" />
+          <height value="797" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="166" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="167" />
+          <width value="615" />
+          <height value="794" />
+        </page>
+        <page>
+          <links />
+          <id value="168" />
+          <width value="621" />
+          <height value="799" />
+        </page>
+        <page>
+          <links />
+          <id value="169" />
+        </page>
+        <page>
+          <links />
+          <id value="170" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="171" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="172" />
+          <width value="615" />
+          <height value="795" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="173" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="174" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="175" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="176" />
+          <width value="620" />
+          <height value="798" />
+        </page>
+        <page>
+          <links />
+          <id value="177" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="178" />
+          <width value="627" />
+          <height value="804" />
+        </page>
+        <page>
+          <links />
+          <id value="179" />
+          <width value="617" />
+          <height value="796" />
+          <format value="png" />
+        </page>
+        <page>
+          <links />
+          <id value="180" />
+        </page>
+        <page>
+          <links />
+          <id value="181" />
+        </page>
+        <page>
+          <links />
+          <id value="182" />
+        </page>
+        <page>
+          <links />
+          <id value="183" />
+        </page>
+      </elements>
+    </pages>
+    <searchIndex ext="search/searchtext.xml" />
+    <bookId value="a235d031-5013-4ad5-84d5-53dee20142b8" />
+    <bookWidth value="615" />
+    <bookHeight value="795" />
+    <bookName value="The Shadow (Bally)" />
+    <bookBG src="image/pps-tl203x171comcmatrixgrey.jpg" scale="single" width="1446" height="738" color="#CC0E28" />
+    <searchVisible value="false" />
+    <navigationVisible value="true" />
+    <singlePageMode value="false" />
+    <rightToLeftMode value="false" />
+    <hardCover value="false" border="false" color="#F5AB6E" width="15" height="15" />
+    <skin style="xxnewskin " />
+    <tocVisible value="true" />
+    <slideshowVisible value="true" />
+    <bookmarksVisible value="true" />
+    <bookLang value="en" />
+  </bookProperties>
+</Properties>

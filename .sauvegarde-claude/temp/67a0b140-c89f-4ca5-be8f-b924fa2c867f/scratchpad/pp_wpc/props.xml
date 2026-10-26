@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Properties>
+  <tableOfContent>
+    <tocData>
+      <pageNumber value="1" />
+      <title value="" />
+      <children>
+        <tocData>
+          <pageNumber value="1" />
+          <title value="WPCTheory of Operationand SchematicsManual" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="4" />
+          <title value="CONTENTS" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="7" />
+          <title value="Assembly" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="8" />
+          <title value="C A lU'll'lleN" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="8" />
+          <title value="Leg Leveler" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="9" />
+          <title value="Operation" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="9" />
+          <title value="Powering ..up" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="11" />
+          <title value="W'PC! Control Locations" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="11" />
+          <title value="Coin Door Switches" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="12" />
+          <title value="Cabinet Switches" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="15" />
+          <title value="System Operation" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="16" />
+          <title value="Menu System OperationWPC Standard Menu" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="17" />
+          <title value="MaipMenU" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="17" />
+          <title value="B.Boo&quot;mnipg Men»" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="17" />
+          <title value="One-Button Audit System" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="31" />
+          <title value="Circuit Operation" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="23" />
+          <title value="Solenoid Test" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="23" />
+          <title value="Flasher Test" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="32" />
+          <title value="Connector and Component Identification" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="32" />
+          <title value="Circuit Boards" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="33" />
+          <title value="1YJ&gt;ical WPC Board Location" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="34" />
+          <title value="CPU Board Operations" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="34" />
+          <title value="Switch Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="36" />
+          <title value="Switch Matrix Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="38" />
+          <title value="Power Driver Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="40" />
+          <title value="Solenoid Circuits" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="40" />
+          <title value="Solenoid Table" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="41" />
+          <title value="High Power Solenoids" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="41" />
+          <title value="Low Power Solenoids" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="42" />
+          <title value="F1ashlamps" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="44" />
+          <title value="Flipper Circuit and Lane Change Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="46" />
+          <title value="Display Driver Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="46" />
+          <title value="Single and Dual Display Boards" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="47" />
+          <title value="Dot Matrix Controller Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="47" />
+          <title value="Sound Board" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="49" />
+          <title value="Troubleshooting" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="50" />
+          <title value="CPU Logie Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="49" />
+          <title value="CPU Board LED Error Codes" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="51" />
+          <title value="Switch Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="52" />
+          <title value="Lamp Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="53" />
+          <title value="Solenoid Circuit" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="54" />
+          <title value="Flashlamps" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="54" />
+          <title value="F1ippers and Lane Change" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="55" />
+          <title value="Power Circuits" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="56" />
+          <title value="Alphanumeric Displays" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="56" />
+          <title value="Dot Matrix Display" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="58" />
+          <title value="Fuse List" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="59" />
+          <title value="LED List" />
+          <children />
+        </tocData>
+        <tocData>
+          <pageNumber value="61" />
+          <title value="Schematics" />
+          <children />
+        </tocData>
+      </children>
+    </tocData>
+  </tableOfContent>
+  <bookProperties>
+    <pages>
+      <defaultValue>
+        <BGColor value="#FFFFFF" />
+        <width value="612" />
+        <height value="792" />
+      </defaultValue>
+      <elements>
+        <page>
+          <links />
+          <id value="1" />
+        </page>
+        <page>
+          <links />
+          <id value="2" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="3" />
+        </page>
+        <page>
+          <links />
+          <id value="4" />
+        </page>
+        <page>
+          <links />
+          <id value="5" />
+        </page>
+        <page>
+          <links />
+          <id value="6" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="7" />
+        </page>
+        <page>
+          <links />
+          <id value="8" />
+          <width value="615" />
+          <height value="795" />
+        </page>
+        <page>
+          <links />
+          <id value="9" />
+        </page>
+        <page>
+          <links />
+          <id value="10" />
+        </page>
+        <page>
+          <links />
+          <id value="11" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="12" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="13" />
+          <width value="617" />
+          <height value="796" />
+        </page>
+        <page>
+          <links />
+          <id value="14" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="15" />
+          <width value="618" />
+          <height value="797" />
+        </page>
+        <page>
+          <links />
+          <id value="16" />
+        </page>
+        <page>
+          <links />
+          <id value="17" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="18" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="19" />
+        </page>
+        <page>
+          <links />
+          <id value="20" />
+        </page>
+        <page>
+          <links />
+          <id value="21" />
+          <width value="615" />
+          <height value="795" />
+        </page>
+        <page>
+          <links />
+          <id value="22" />
+        </page>
+        <page>
+          <links />
+          <id value="23" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="24" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="25" />
+        </page>
+        <page>
+          <links />
+          <id value="26" />
+        </page>
+        <page>
+          <links />
+          <id value="27" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="28" />
+          <width value="615" />
+          <height value="795" />
+        </page>
+        <page>
+          <links />
+          <id value="29" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="30" />
+        </page>
+        <page>
+          <links />
+          <id value="31" />
+        </page>
+        <page>
+          <links />
+          <id value="32" />
+        </page>
+        <page>
+          <links />
+          <id value="33" />
+        </page>
+        <page>
+          <links />
+          <id value="34" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="35" />
+        </page>
+        <page>
+          <links />
+          <id value="36" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="37" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="38" />
+        </page>
+        <page>
+          <links />
+          <id value="39" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="40" />
+        </page>
+        <page>
+          <links />
+          <id value="41" />
+        </page>
+        <page>
+          <links />
+          <id value="42" />
+          <width value="613" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="43" />
+        </page>
+        <page>
+          <links />
+          <id value="44" />
+        </page>
+        <page>
+          <links />
+          <id value="45" />
+        </page>
+        <page>
+          <links />
+          <id value="46" />
+        </page>
+        <page>
+          <links />
+          <id value="47" />
+        </page>
+        <page>
+          <links />
+          <id value="48" />
+        </page>
+        <page>
+          <links />
+          <id value="49" />
+        </page>
+        <page>
+          <links />
+          <id value="50" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="51" />
+        </page>
+        <page>
+          <links />
+          <id value="52" />
+        </page>
+        <page>
+          <links />
+          <id value="53" />
+        </page>
+        <page>
+          <links />
+          <id value="54" />
+        </page>
+        <page>
+          <links />
+          <id value="55" />
+        </page>
+        <page>
+          <links />
+          <id value="56" />
+        </page>
+        <page>
+          <links />
+          <id value="57" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="58" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+        <page>
+          <links />
+          <id value="59" />
+        </page>
+        <page>
+          <links />
+          <id value="60" />
+          <width value="617" />
+          <height value="796" />
+        </page>
+        <page>
+          <links />
+          <id value="61" />
+        </page>
+        <page>
+          <links />
+          <id value="62" />
+          <width value="614" />
+          <height value="793" />
+        </page>
+      </elements>
+    </pages>
+    <searchIndex ext="search/searchtext.xml" />
+    <bookWidth value="612" />
+    <bookHeight value="792" />
+    <bookName value="WilliamsMidway WPC 91 Schematics 16-9289" />
+    <bookBG src="image/pps-tl203x171comcmatrixgrey.jpg" scale="single" width="1446" height="738" />
+    <tocVisible value="true" />
+    <slideshowVisible value="true" />
+    <bookmarksVisible value="true" />
+    <bookLang value="en" />
+  </bookProperties>
+</Properties>

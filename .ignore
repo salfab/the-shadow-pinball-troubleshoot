@@ -1,0 +1,2 @@
+# Pour ripgrep (recherches de Claude Code) : ne pas fouiller la sauvegarde des sessions
+.sauvegarde-claude/

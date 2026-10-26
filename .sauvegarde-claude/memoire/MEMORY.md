@@ -1,0 +1,4 @@
+- [Méthode de diagnostic The Shadow](shadow-diagnostic-method.md) — une mesure à la fois, journal à tenir à jour, hypothèses de l'utilisateur jamais tenues pour acquises, image annotée pour chaque composant de la carte cité
+- [Expérience en soudure de l'utilisateur](user-soldering-experience.md) — peu expérimenté, craint de décoller des pistes : guider prudemment la réparation au banc
+- [Carnet de bord pour un article de blog](shadow-blog-work-log.md) — tenir `carnet-de-bord.md` à jour à chaque séance, pour en faire un article à la fin
+- [Sauvegarde GitHub du projet](shadow-github-backup.md) — dépôt privé salfab/the-shadow-pinball-troubleshoot ; lancer `sauvegarde.ps1` en fin de séance
