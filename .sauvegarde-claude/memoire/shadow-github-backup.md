@@ -5,13 +5,14 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 67a0b140-c89f-4ca5-be8f-b924fa2c867f
-  modified: 2026-10-26T06:05:48.797Z
+  modified: 2026-10-26T06:09:44.816Z
 ---
 
 On 2026-10-26 the user asked to back up the whole project to a private GitHub repo, so nothing is lost if their disk crashes. They allowed binaries (photos, PDFs) in the repo.
 
 - Repo: https://github.com/salfab/the-shadow-pinball-troubleshoot (private, branch `main`).
-- It holds the project files: journal, carnet, `docs/`, `photos/`, `.remember/`.
+- It holds the project files: journal, carnet, `docs/`, `photos/`.
+- It holds the `.remember/*.md` notes. The script force-adds them, because the Remember plugin's own `.gitignore` (`*`) excludes its folder. The plugin's `tmp/` and `logs/` are left out.
 - It also holds `.sauvegarde-claude/`:
   - `memoire/`: a mirror of this memory folder;
   - `sessions/`: the session transcripts, split into 40 MB `.partNNN` files above that size;

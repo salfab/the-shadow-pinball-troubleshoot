@@ -61,6 +61,12 @@ if (Test-Path $temp) {
 # 4. Commit et push.
 git -C $depot add -A
 if ($LASTEXITCODE) { throw 'git add a échoué' }
+# Notes du plugin Remember : son dossier s'exclut lui-même de git (.gitignore « * ») ;
+# on force l'ajout des notes .md, sans ses fichiers techniques (tmp/, logs/).
+if (Test-Path (Join-Path $depot '.remember\*.md')) {
+    git -C $depot add -f -- '.remember/*.md'
+    if ($LASTEXITCODE) { throw 'git add (.remember) a échoué' }
+}
 if (git -C $depot status --porcelain) {
     git -C $depot commit -q -m $Message
     if ($LASTEXITCODE) { throw 'git commit a échoué' }
