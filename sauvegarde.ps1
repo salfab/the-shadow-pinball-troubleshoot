@@ -54,19 +54,18 @@ Get-ChildItem $projet -Recurse -File |
 
 # 3. Fichiers de travail des sessions (scratchpad) : ajout seul, comme les transcriptions.
 if (Test-Path $temp) {
-    robocopy $temp (Join-Path $dest 'temp') /E /XD __pycache__ pw-venv out /NJH /NJS /NFL /NDL /NP | Out-Null
+    robocopy $temp (Join-Path $dest 'temp') /E /XD __pycache__ pw-venv out /XF *.bundle /NJH /NJS /NFL /NDL /NP | Out-Null
     if ($LASTEXITCODE -ge 8) { throw "robocopy (temp) : code $LASTEXITCODE" }
 }
 
-# 4. Commit et push.
+# 4. Notes du plugin Remember : copiées hors de .remember/, car le plugin refuse
+#    de relire des notes suivies par git (sans tmp/ ni logs/).
+robocopy (Join-Path $depot '.remember') (Join-Path $dest 'remember') *.md /NJH /NJS /NFL /NDL /NP | Out-Null
+if ($LASTEXITCODE -ge 8) { throw "robocopy (remember) : code $LASTEXITCODE" }
+
+# 5. Commit et push.
 git -C $depot add -A
 if ($LASTEXITCODE) { throw 'git add a échoué' }
-# Notes du plugin Remember : son dossier s'exclut lui-même de git (.gitignore « * ») ;
-# on force l'ajout des notes .md, sans ses fichiers techniques (tmp/, logs/).
-if (Test-Path (Join-Path $depot '.remember\*.md')) {
-    git -C $depot add -f -- '.remember/*.md'
-    if ($LASTEXITCODE) { throw 'git add (.remember) a échoué' }
-}
 if (git -C $depot status --porcelain) {
     git -C $depot commit -q -m $Message
     if ($LASTEXITCODE) { throw 'git commit a échoué' }

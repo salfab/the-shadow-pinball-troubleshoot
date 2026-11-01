@@ -1,0 +1,94 @@
+{
+   "checksum": "75480410b851a8f12ce280dcc409e856",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13438043228865872",
+            "date_last_used": "0",
+            "guid": "253a5085-bd04-49ab-987b-b55b83dceb80",
+            "id": "10",
+            "name": "Express VPN",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=expressvpn&c=*&locale=en_us&pf=*&s=*&tp=edge",
+            "visit_count": 0
+         }, {
+            "date_added": "13438043228865736",
+            "date_last_used": "0",
+            "guid": "286691f3-e90d-4cae-8212-0094054eb7b7",
+            "id": "9",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13438043228865517",
+            "date_last_used": "0",
+            "guid": "925b68dc-abb5-4f61-9264-f737bbf20cbc",
+            "id": "8",
+            "name": "LastPass password manager",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=lastpass&c=231&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13438043228864986",
+            "date_last_used": "0",
+            "guid": "18fc648f-5f3b-4a3e-b265-555831e69b88",
+            "id": "7",
+            "name": "Adobe offers",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?c=231&type=107EF_NW&RedeemCode=uIIUA0WGYdn6mDNejMGcXNI1uU1GG3Syk6aCfh%2bHDxuVuZtphjynC8aOp7DZjNiqn8SmEIM0EJY03fuDBCpvOUkDC9AfOTl7deCSTTZ1hlZ7dD7U%2bfP3a2%2b3d3P9AwmlQdbqsZ%2be7zTj2jKCSUChHWZo5Ced1JwjfBB4J8hLBds%3d",
+            "visit_count": 0
+         } ],
+         "date_added": "13438043228615598",
+         "date_last_used": "0",
+         "date_modified": "13438043228865872",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favourites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13438043228615598",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favourites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13438043228615598",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favourites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13438043228615598",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Workspaces",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

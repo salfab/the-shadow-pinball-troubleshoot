@@ -12,7 +12,7 @@ Dépôt **privé** : sauvegarde du diagnostic de la Power Driver (A-12697-3) et 
 | Mémoire Claude du projet | `.sauvegarde-claude/memoire/` |
 | Transcriptions des sessions Claude | `.sauvegarde-claude/sessions/` |
 | Fichiers de travail des sessions (scripts d'annotation, extraits du manuel) | `.sauvegarde-claude/temp/` |
-| Notes du plugin Remember (fichiers `.md` seulement) | `.remember/` |
+| Notes du plugin Remember (copie des fichiers `.md` ; à remettre dans `.remember/` après un clone) | `.sauvegarde-claude/remember/` |
 
 ## Dépendances
 

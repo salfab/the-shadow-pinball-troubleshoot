@@ -159,3 +159,9 @@ Aucune bobine trop basse, donc aucune ne peut griller un transistor.
 - Zone de la GI : `photos/2026-11-01_G2_*.jpg`.
 - Résistances des rangées : `photos/2026-11-01_annotee_resistances-0R22-rangees.jpg`.
 - Plans annotés : `photos/plan-PD_TP7-TP5-C11*.png`, `plan-PD_lampes_*.png`, `plan-PD_C6-C7_18V_embase-J138.png`, `plan-PD_GI_F106-F110_TP5.png`, `plan-PD_J124-J125-J106-TP7.png`.
+
+### Liste d'achats : vérification chez Mouser (≈ 23 h)
+
+- Playwright était bloqué en « Access Denied » par Mouser, mais le navigateur intégré de l'application passe sans problème : la vérification à la main fonctionne.
+- Le **TIP36C** (Q82) existe chez Mouser en **TO-247-3**, à CHF 2.62 et en stock ; Distrelec n'en a pas. Tout le reste de la liste est aussi en stock chez Mouser : total ≈ CHF 60 hors port (≈ 17 sans fusibles ni consommables).
+- Restent à confirmer au moment de commander : le fusible 3 A (seul le 3,15 A trouvé), la puissance de la résistance 68 Ω, les frais de port et le HT/TTC.

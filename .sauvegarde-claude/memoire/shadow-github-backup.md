@@ -12,7 +12,7 @@ On 2026-10-26 the user asked to back up the whole project to a private GitHub re
 
 - Repo: https://github.com/salfab/the-shadow-pinball-troubleshoot (private, branch `main`).
 - It holds the project files: journal, carnet, `docs/`, `photos/`.
-- It holds the `.remember/*.md` notes. The script force-adds them, because the Remember plugin's own `.gitignore` (`*`) excludes its folder. The plugin's `tmp/` and `logs/` are left out.
+- It holds a copy of the `.remember/*.md` notes in `.sauvegarde-claude/remember/`. Never track `.remember/` itself in git: the Remember plugin refuses to inject notes that git tracks (seen 2026-11-01).
 - It also holds `.sauvegarde-claude/`:
   - `memoire/`: a mirror of this memory folder;
   - `sessions/`: the session transcripts, split into 40 MB `.partNNN` files above that size;

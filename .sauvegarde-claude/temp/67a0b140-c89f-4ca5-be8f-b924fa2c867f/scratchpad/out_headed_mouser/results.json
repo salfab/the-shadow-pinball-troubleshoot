@@ -1,0 +1,20 @@
+{
+ "mouser/TIP36C": {
+  "url": "https://www.mouser.ch/c/?q=TIP36C",
+  "ok": true,
+  "links": [],
+  "text": "Access Denied Access to this page has been denied either because we believe you are using automation tools to browse the website, or something in the request did not pass security restrictions. This may happen as a result of the following: Javascript is disabled or blocked by an extension (ad blockers for example) Your browser does not support cookies The request matched a security rule combination that requires inspection. This could happen based on the combination of search terms that individually are harmless, but together match security rules. Please make sure that Javascript and cookies are enabled on your browser and that you are not blocking them from loading. Reference-ID: #0.1f6cdead.1793569632.43311ec9 If you believe you should not be seeing this page please fill out our Feedback Form and our team will contact you to help. Learn More About Our: Search API | BOM Tool"
+ },
+ "mouser/TIP102": {
+  "url": "https://www.mouser.ch/c/?q=TIP102",
+  "ok": false,
+  "links": [],
+  "text": ""
+ },
+ "mouser/TIP107": {
+  "url": "https://www.mouser.ch/c/?q=TIP107",
+  "ok": true,
+  "links": [],
+  "text": "Access Denied Access to this page has been denied either because we believe you are using automation tools to browse the website, or something in the request did not pass security restrictions. This may happen as a result of the following: Javascript is disabled or blocked by an extension (ad blockers for example) Your browser does not support cookies The request matched a security rule combination that requires inspection. This could happen based on the combination of search terms that individually are harmless, but together match security rules. Please make sure that Javascript and cookies are enabled on your browser and that you are not blocking them from loading. Reference-ID: #0.1f6cdead.1793570556.43444fa7 If you believe you should not be seeing this page please fill out our Feedback Form and our team will contact you to help. Learn More About Our: Search API | BOM Tool"
+ }
+}
