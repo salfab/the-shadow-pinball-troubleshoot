@@ -14,7 +14,7 @@
 - **Le symptôme** : dès l'allumage, la bobine du lanceur automatique (Sol 01, Ball Launch) restait alimentée et tenait le plongeur.
 - **L'objectif** : avant de rebrancher une carte réparée, s'assurer que rien dans la machine ne la détruira de nouveau.
 
-## Séance 1 — samedi 25 octobre 2026 (12 h 40 – 19 h 55)
+## Séance 1 — dimanche 25 octobre 2026 (12 h 40 – 19 h 55)
 
 ### La méthode
 
@@ -90,3 +90,72 @@ Aucune bobine trop basse, donc aucune ne peut griller un transistor.
 - `photos/2026-10-25_O11_bobine-AE-23-800.jpg`, `..._O12_bobine-Sol01-cosses.jpg`, `..._O13_bobine-Sol08-cosses.jpg` : bobines sous le plateau.
 - `photos/2026-10-25_O14_J107-fils.jpg`, `..._O15_fiche-J107.jpg` : connecteur J107.
 - Images annotées : `photos/2026-10-25_annotee_*.jpg`, `photos/plan-PD_*.png`.
+
+## Entre les deux séances
+
+- Tout le projet est sauvegardé sur un dépôt GitHub privé : journal, carnet, photos, documentation, ainsi que la mémoire et les conversations avec Claude. Un script, `sauvegarde.ps1`, met la sauvegarde à jour.
+
+## Séance 2 — dimanche 1er novembre 2026 (8 h 10 – 13 h 50)
+
+### Une résistance qui varie (≈ 8 h 10 – 8 h 50)
+
+- Entre TP7 (+20 V des flashers) et TP5 (masse), le multimètre bipait, affichait 39 Ω, puis montait au-delà de 171 kΩ. J'ai eu peur d'un court-circuit entre le 20 V et la masse.
+- **Explication** : C11, le condensateur de 15 000 µF du 20 V, se chargeait avec le courant du multimètre. Un vrai court-circuit resterait bas et stable. Fausse alerte.
+
+### Fin du contrôle des alimentations des bobines (≈ 8 h 50 – 9 h 15)
+
+- Avec F103 retiré à son tour, les trois lignes 50 V des bobines se sont révélées isolées : entre elles, du 20 V et de la masse.
+- C'était vrai même en faisant glisser à la main la palette du Mini Kicker, celle « façon Arkanoid » du mini-plateau.
+- **Un souvenir revenu** : la machine redémarrait toujours peu après la sortie de la balle du mini-plateau. Noté, à surveiller à la remise sous tension.
+
+### La matrice des lampes (≈ 9 h 20 – 10 h 45)
+
+- **Première surprise** : sur *The Shadow*, J133 et J137 ne servent pas. Les lampes du plateau passent par J135 pour les rangées et J138 pour les colonnes.
+- **Deuxième surprise** : les rangées 1 à 3 ont les mêmes couleurs que les alimentations des bobines (Rouge-Marron, Rouge-Noir, Rouge-Orange).
+- **L'astuce** : depuis une colonne, le multimètre atteint toutes les rangées à travers les lampes et leurs diodes. Il suffit donc de sonder une seule fiche.
+- **Une fausse piste** : une valeur montait de 1,2 à 1,6 V sur toutes les broches. Elle venait de l'embase de la carte, c'est-à-dire des transistors des colonnes et des condensateurs du +18 V, pas des fils. Sur la fiche, côté fils : OL.
+- **Résultat** : aucun fil des lampes ne touche la masse, le 50 V des bobines ou le 20 V des flashers.
+- **Question encore ouverte** : quelle pièce a brillé autrefois ?
+  - La photo de la première séance, regardée en pleine résolution, ne montre aucune brûlure.
+  - Les huit résistances bleues de 0,22 Ω des rangées sont les meilleures candidates.
+  - On tranchera sur l'établi.
+
+### L'éclairage général (≈ 10 h 50 – 11 h 50)
+
+- **Mesure clé** : chaque fusible de GI est à 0,4 Ω de la masse, à travers le transformateur. Les mesures déjà faites couvraient donc aussi les fils de GI.
+- **Photos de la zone** : les connecteurs sont sains.
+- **Fusibles** : deux d'entre eux sont d'un autre modèle, avec un fil droit et une perle verte. Leur marquage, T5AL250V, les rend conformes.
+
+### Les flashers (≈ 12 h – 13 h 15)
+
+- Un flasher en court-circuit détruirait son transistor sur la carte. J'ai mesuré les 8 flashers du plateau et les 5 de la tête : aucun court-circuit.
+- À revoir à l'allumage : le flasher Sol 26 de la tête (circuit ouvert) et trois flashers à la résistance élevée.
+
+### Les lignes des flippers (≈ 13 h 20 – 13 h 45)
+
+- Les fils 50 V des flippers ne touchent ni les lampes ni le 20 V.
+
+### Bilan de la séance
+
+- Côté machine, tout ce qui pouvait abîmer la Power Driver réparée a été vérifié.
+- **Prochaine étape** : la carte sur l'établi (Q82 et sa commande, les pilotes de lampes, la zone qui a brillé), puis la remise sous tension progressive.
+
+### Corrections en cours de route
+
+- L'assistant avait situé les « points lumineux » au-dessus de J133 et J137 sans savoir que ces connecteurs ne servent pas sur ce jeu.
+- À la première séance, il avait décrit les résistances bleues comme « montées debout ». Elles sont en fait montées à plat.
+- Son premier contrôle des lampes ne couvrait pas les lignes des flippers (F101, F102). Il l'a ajouté en fin de séance.
+
+### Ce que j'en retiens
+
+- **Une valeur qui monte toute seule**, c'est un condensateur qui se charge, pas une panne.
+- **Fiche ou embase** : pour tester les fils, on mesure la fiche débranchée, côté fils.
+- **Le manuel du jeu fait foi** : un jeu n'utilise pas forcément tous les connecteurs du schéma de la carte.
+- **La valeur plutôt que le bip** : elle dit ce qu'il y a sur le chemin (0,4 Ω, un fil ; quelques ohms, une bobine ou des ampoules ; 10 kΩ, une résistance).
+- **Lire un fusible** : T5AL250V veut dire temporisé, 5 A, faible pouvoir de coupure, 250 V.
+
+### Photos de la séance
+
+- Zone de la GI : `photos/2026-11-01_G2_*.jpg`.
+- Résistances des rangées : `photos/2026-11-01_annotee_resistances-0R22-rangees.jpg`.
+- Plans annotés : `photos/plan-PD_TP7-TP5-C11*.png`, `plan-PD_lampes_*.png`, `plan-PD_C6-C7_18V_embase-J138.png`, `plan-PD_GI_F106-F110_TP5.png`, `plan-PD_J124-J125-J106-TP7.png`.

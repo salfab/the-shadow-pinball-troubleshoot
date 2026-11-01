@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 67a0b140-c89f-4ca5-be8f-b924fa2c867f
-  modified: 2026-10-25T16:53:44.069Z
+  modified: 2026-11-01T12:53:13.483Z
 ---
 
 For the Bally The Shadow (1994, WPC-S) Power Driver diagnosis, guide exactly one manipulation or measurement per message (where, how, how to interpret), then wait for the result. Off-power checks first, account for charged capacitors, and never suggest powering on before the pre-reconnection checklist is done. Treat the user's recollections as uncertain, never as confirmed diagnoses, and contradict them when evidence requires. Answer in French.
@@ -13,6 +13,10 @@ For the Bally The Shadow (1994, WPC-S) Power Driver diagnosis, guide exactly one
 Whenever a message mentions a board component, connector, fuse or test point, also send an annotated image showing where it is (user asked on 2026-10-25). Use the user's own photo when it covers the spot; otherwise annotate the manual's layout (page 2-9) rotated 90° clockwise, which matches how the board is mounted in the backbox (J130 at the bottom, J101 on the right, fuses F101–F105 vertical with F101 left and F105 right). A pre-rotated copy is in `docs/manuel-the-shadow/2-9_PD_implantation_orientee-comme-montee.png`. Draw with PIL, save in `photos/`, send with SendUserFile.
 
 Before asking for a series of measurements, say in one or two sentences what it protects against (the goal is never to reconnect a repaired Power Driver into a fault), and keep the series minimal: skip values already measured, try the most likely point first. The user questioned a 16-reading table ("À quoi ? Est-ce que ça me sert ?").
+
+When a measurement is on a harness plug, write "fiche débranchée, côté fils". On 2026-11-01 the user probed the board header (embase J138) instead of the plug. The board's drivers and the big supply capacitors then gave a misleading reading that kept climbing.
+
+The user's multimeter is manual-ranging and reads millivolts in diode mode. Its probe leads read about 0.4 Ω on their own, so treat ≈ 0.4 Ω as a dead short. A reading that keeps climbing means a big capacitor is charging: C8 on the 50 V, C11 on the 20 V, C6/C7 on the +18 V.
 
 **Why:** the user asked for this explicitly; earlier unstructured measurements did not validate anything, and the Power Driver was already damaged several times. Finding parts from designators alone was hard for them.
 
