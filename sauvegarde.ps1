@@ -54,7 +54,7 @@ Get-ChildItem $projet -Recurse -File |
 
 # 3. Fichiers de travail des sessions (scratchpad) : ajout seul, comme les transcriptions.
 if (Test-Path $temp) {
-    robocopy $temp (Join-Path $dest 'temp') /E /XD __pycache__ /NJH /NJS /NFL /NDL /NP | Out-Null
+    robocopy $temp (Join-Path $dest 'temp') /E /XD __pycache__ pw-venv out /NJH /NJS /NFL /NDL /NP | Out-Null
     if ($LASTEXITCODE -ge 8) { throw "robocopy (temp) : code $LASTEXITCODE" }
 }
 
