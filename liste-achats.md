@@ -2,7 +2,7 @@
 
 > Préparée le 01/11/2026 pour la séance au banc. Seul **Q82** est certainement défectueux ; le reste est une réserve bon marché pour ne pas bloquer la séance si un test révèle une autre pièce abîmée.
 >
-> Deux distributeurs qui livrent en Suisse, en CHF : **Distrelec** (suisse, livraison rapide) et **Mouser**. Choisir un seul distributeur pour tout regrouper et amortir les frais de port.
+> Trois distributeurs qui livrent en Suisse, en CHF : **Distrelec** (suisse, livraison rapide), **Mouser** et **Conrad** (section 7). Choisir un seul distributeur pour tout regrouper et amortir les frais de port.
 >
 > ⚠️ **Boîtier du TIP36C :** prendre le **TO-247 (ou TO-218 / TO-3P)**, comme l'original : plastique large, trou de fixation. Pas le TO-220, plus petit.
 > ⚠️ **Fusibles :** **6,3 × 32 mm**, verre, temporisés (T). Pas 5 × 20 mm.
@@ -57,6 +57,27 @@
 
 - [ ] **Ampoule de flasher** × 2 — flasher Sol 26 de la tête. Probablement une **#906** (culot à coin) : **vérifier d'abord celle en place** avant de commander. Plutôt chez un revendeur de pièces de flipper (par exemple [Marco Specialties](https://www.marcospecialties.com/), qui livre à l'international), ou chez un revendeur européen de pièces de flipper. Disponibilité d'une #906 chez Distrelec ou Mouser : **non vérifiée**.
 
+## 7. Troisième distributeur : Conrad.ch (vérifié le 01/11/2026)
+
+Relevé à la main dans le navigateur intégré. Prix **TTC**, plus frais de port ; livraison annoncée le 5 novembre pour les pièces en stock. Conrad vend souvent les petites pièces à l'unité, très bon marché, mais **ne couvre pas toute la liste**.
+
+| Pièce | Qté | Conrad |
+|---|---|---|
+| **TIP36C** (indispensable) | 2 | **Trouvé** : [STMicroelectronics TIP36C, TO-247-3, PNP](https://www.conrad.ch/fr/search.html?search=TIP36C) — **CHF 1.75** pièce — 46 en stock. Moins cher que chez Mouser (2.62), mais stock limité. |
+| TIP102 | 4 | **Introuvable** (la recherche renvoie des fers à souder et des forets). Conrad a des TIP120 / TIP121, qui ne sont pas équivalents. |
+| TIP107 | 2 | **Introuvable.** |
+| 2N5401 | 2 | **Trouvé** : [Diotec 2N5401, TO-92, PNP](https://www.conrad.ch/fr/search.html?search=2N5401) — **CHF 0.037** — 872 en stock. |
+| 1N4004 | 5 | **Trouvé** : [Diotec 1N4004, DO-204AL (= DO-41), 400 V 1 A](https://www.conrad.ch/fr/search.html?search=1N4004) — **CHF 0.03** — 20 387 en stock. |
+| Résistance 68 Ω ½ W | 2 | **Trouvé** : Weltron 405116, couche carbone, axiale, 0,5 W — **CHF 0.04** — 1 510 en stock ([recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%2068%20ohm%200%2C5W%20traversante)). |
+| Résistance 220 Ω ¼ W | 2 | **Trouvé** : TRU Components TC-MF0W4FF2200A50203, couche métallique, axiale, 0,25 W — **CHF 0.02** — 5 206 en stock ([recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%20220%20ohm%200%2C25W)). |
+| Résistance 2,7 kΩ ¼ W | 2 | **Non trouvée** avec ma recherche (elle a renvoyé des 27 kΩ). À chercher à la main, ou prendre chez Mouser. |
+| Résistance 0,22 Ω 1 W | 4 | **Trouvé** : Yageo KNP100JT-73-0R22, bobinée axiale, 1 W 5 % — **CHF 0.136** (prix remisé) — 300 en stock ([recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%200%2C22%20ohm%201W)). |
+| Fusible T5A 6,3 × 32 | 3 | **Trouvé** : Püschel **FSUT5,0B**, 6,3 × 32 mm, 5 A 250 V temporisé, **sachet de 10 pour CHF 3.10** — 52 en stock. 1 sachet suffit, et il y a de la marge. |
+| Fusible T3A 6,3 × 32 | 3 | **Trouvé (3,15 A)** : Püschel **FSUT3,15B**, 6,3 × 32 mm, 3,15 A 250 V temporisé, **sachet de 10 pour CHF 3.10** — 40 en stock. Même remarque que chez Mouser : pas de « 3 A » exact. |
+| Flux | 1 | **Pas de stylo no-clean trouvé** ; seulement du flux liquide au litre (Stannol EF350, CHF 24.95) : trop. |
+| Tresse à dessouder | 1 | **Trouvé** : Stannol Solder Ex, 2,5 mm × 1,6 m, flux imprégné — **CHF 2.10** — 1 021 en stock (aussi : Toolcraft ZD-180, 3 mm, CHF 1.65). |
+| Soudure au plomb | 1 | **Pas trouvée** : seulement du sans plomb (Sn99,3Cu0,7). Pas adapté si l'on veut du Sn60/Pb40 ou Sn63/Pb37. |
+
 ## Totaux estimés et frais de port
 
 Total Mouser calculé avec les prix unitaires relevés (pièce seule, hors port, HT/TTC à confirmer au panier) :
@@ -76,9 +97,30 @@ Total Mouser calculé avec les prix unitaires relevés (pièce seule, hors port,
 |---|---|---|
 | Total vérifié | CHF 6.85 HT (TIP102 seulement) | ≈ CHF 60.18 (liste complète, prix unitaires) |
 | Total complet | Impossible : pas de TIP36C | ≈ CHF 60.18 |
-| Frais de port / seuil de gratuité pour la Suisse | Non vérifié | **Non vérifié** (pages d'aide introuvables ; à lire au panier) |
+| Frais de port / seuil de gratuité pour la Suisse | Non vérifié (site bloqué par le CAPTCHA) | **CHF 23.00** (UPS Worldwide Express Saver), lus au panier ; **gratuit « sur la plupart des commandes » dès CHF 70** ; droits et douane payés par Mouser (DDP) |
+
+### Frais de port (relevés le 01/11/2026)
+
+| Distributeur | Frais de port | Gratuit dès | Source |
+|---|---|---|---|
+| **Mouser** | CHF 23.00 | CHF 70 (sur la plupart des commandes) | Panier mouser.ch (une pièce mise au panier, puis retirée ; rien commandé) |
+| **Conrad** | CHF 9.95 (particulier) ; CHF 15.95 (professionnel) | CHF 200 TTC | [Aide Conrad](https://help.conrad.ch/hc/fr-ch/articles/360001281777-A-combien-s-%C3%A9l%C3%A8vent-les-frais-de-port-standard-chez-Conrad) |
+| **Distrelec** | Non vérifié | Non vérifié | Page bloquée |
+
+### Coût total, port compris
+
+| Scénario | Marchandises | Port | **Total** |
+|---|---|---|---|
+| Tout chez Mouser | ≈ 60.18 | 23.00 | **≈ 83.18** |
+| Tout chez Mouser, panier complété pour atteindre CHF 70 | ≥ 70.00 | 0 | **≈ 70.00** |
+| Conrad (ce qu'il a) + Mouser (le reste : TIP102, TIP107, 2,7 kΩ, flux, soudure) | 12.69 + 26.71 | 9.95 + 23.00 | **≈ 72.35** |
+| Conrad seul (liste incomplète, 5 pièces manquantes) | 12.69 | 9.95 | ≈ 22.64 |
+
+Total Conrad, pour ce qui y est disponible (TIP36C, 2N5401, 1N4004, résistances 68 Ω / 220 Ω / 0,22 Ω, un sachet de chaque fusible, tresse) : **≈ CHF 12.69 TTC**, hors port. Il manque **TIP102, TIP107, résistances 2,7 kΩ, flux et soudure au plomb**.
 
 ## Recommandation
+
+**Port compris, le plus avantageux est de tout commander chez Mouser en dépassant CHF 70** : le port (CHF 23) devient gratuit, pour environ CHF 70 en tout. Le panier complet fait ≈ CHF 60 : il manque environ 10 CHF, qu'on peut employer à des pièces de réserve utiles (par exemple quelques TIP36C ou TIP102 de plus, ou un second stylo de flux). Mouser seul, sous CHF 70, coûte ≈ CHF 83 port compris. Panacher Conrad et Mouser (≈ CHF 72) ne fait pas mieux et oblige à deux commandes.
 
 **Tout commander chez Mouser.** Il a le **TIP36C en TO-247-3** (CHF 2.62, 3 528 en stock), indispensable et absent chez Distrelec, et tout le reste de la liste est en stock au même endroit : un seul envoi. À vérifier au panier : les frais de port vers la Suisse et si les prix sont HT ou TTC. Ce qui coûte le plus, ce sont les fusibles et la soudure ; si l'on a déjà de la soudure ou des fusibles de rechange, la commande tombe autour de 17 à 30 CHF (hors port).
 
