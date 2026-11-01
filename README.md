@@ -6,12 +6,20 @@ Dépôt **privé** : sauvegarde du diagnostic de la Power Driver (A-12697-3) et 
 |---|---|
 | Journal technique : mesures, hypothèses, checklist | `journal-diagnostic-the-shadow.md` |
 | Carnet de bord : récit des séances, futur article | `carnet-de-bord.md` |
-| Manuel, schémas, théorie WPC | `docs/` |
+| Manuel complet en PDF (183 pages, reconstitué depuis la version en ligne de Planetary Pinball) | `docs/manuel-the-shadow/manuel-The-Shadow_16-50032-101_complet.pdf` |
+| Pages utiles du manuel, schémas, théorie WPC | `docs/` |
 | Photos et images annotées | `photos/` |
 | Mémoire Claude du projet | `.sauvegarde-claude/memoire/` |
 | Transcriptions des sessions Claude | `.sauvegarde-claude/sessions/` |
 | Fichiers de travail des sessions (scripts d'annotation, extraits du manuel) | `.sauvegarde-claude/temp/` |
 | Notes du plugin Remember (fichiers `.md` seulement) | `.remember/` |
+
+## Dépendances
+
+- [Claude Code](https://claude.com/claude-code), avec un compte connecté.
+- Le plugin **Remember** (`remember@claude-plugins-official`) : il tient les notes de séance dans `.remember/` et les relit au début de chaque conversation. Pour l'installer : `/plugin install remember@claude-plugins-official` dans Claude Code.
+- Git et l'outil GitHub `gh`, connecté au compte (`gh auth login`), pour cloner le dépôt et lancer `sauvegarde.ps1`.
+- PowerShell 7 (`pwsh`) pour le script de sauvegarde, et Python avec Pillow et PyMuPDF pour les scripts d'annotation d'images (`.sauvegarde-claude/temp/…/scripts/`).
 
 ## Mettre la sauvegarde à jour
 

@@ -407,7 +407,7 @@ Photos de la machine dans `photos/` (nommées date_observation_sujet, par exempl
 
 Copies locales dans `docs/` : `manuel-the-shadow/` (pages du manuel), `schema-power-driver/` (schéma A-12697-1 et extraits agrandis), `theorie-wpc/` (manuel de théorie WPC).
 
-- Manuel *The Shadow* 16-50032-101 (nov. 1994), version en ligne : https://www.planetarypinball.com/reference/gamemanuals/The_Shadow_Bly/files/assets/basic-html/toc.html
+- Manuel *The Shadow* 16-50032-101 (nov. 1994), **PDF complet reconstitué le 01/11/2026** : `docs/manuel-the-shadow/manuel-The-Shadow_16-50032-101_complet.pdf` (183 pages, images `mobile/pageNNNN_i2` du livre en ligne). Version en ligne : https://www.planetarypinball.com/reference/gamemanuals/The_Shadow_Bly/files/assets/basic-html/toc.html
 - Schéma Power Driver A-12697-1 (16-9057, rév. 6) : https://pinwiki.com/wiki/index.php/File:WPC_power_drive_board.pdf. La -3 diffère au moins par la zone relais flippers (« NOT USED IN A-12697-3 »).
 - Théorie WPC 16-9289 : https://planetarypinball.com/reference/partsmanuals/WMS_Schematic_WPC_16-9289/files/assets/seo/page32.html
 - PinWiki *The Shadow* : https://pinwiki.com/wiki/index.php/The_Shadow
