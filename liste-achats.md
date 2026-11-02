@@ -19,7 +19,9 @@
 
 - **TIP102 × 10** (Reichelt « TIP 102 MBR », TO-220, 100 V 8 A) et **tresse à dessouder EL 235**.
 - Si ces pièces sont encore dans le tiroir, **les retirer de la commande** : la réserve TIP102 (4) est déjà couverte, et la tresse aussi.
-- **Reichelt** est une quatrième piste : à l'époque, port CHF 9.50 vers la Suisse, TIP102 à CHF 0.45 pièce. Prix et stock actuels **non vérifiés** (le site a bloqué la vérification automatique).
+- **Reichelt** est une quatrième piste : à l'époque, port CHF 9.50 vers la Suisse, TIP102 à CHF 0.45 pièce.
+- **TIP36C chez Reichelt, relevé par l'utilisateur le 02/11/2026** : **[« TIP 36C STM », STMicroelectronics, TO-247](https://www.reichelt.com/ch/fr/shop/produit/transistor_de_puissance_pnp_100v_25a_125w_to-247-21503)** — **CHF 1.17 TTC** (1.27 €) — en stock, livraison 3–4 jours. **Choix recommandé** : même fabricant et même boîtier que le Q82 d'origine, et le moins cher des distributeurs vérifiés. Autres références : TIP 36C en TO-3PN (CHF 0.97), TIP-36C en TO-218 (CHF 1.20, quantité limitée) ; le BD 250 n'est pas un TIP36C.
+- Les autres pièces chez Reichelt : **non vérifiées**.
 
 ## 1. Indispensable
 
