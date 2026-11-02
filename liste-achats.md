@@ -21,7 +21,15 @@
 - Si ces pièces sont encore dans le tiroir, **les retirer de la commande** : la réserve TIP102 (4) est déjà couverte, et la tresse aussi.
 - **Reichelt** est une quatrième piste : à l'époque, port CHF 9.50 vers la Suisse, TIP102 à CHF 0.45 pièce.
 - **TIP36C chez Reichelt, relevé par l'utilisateur le 02/11/2026** : **[« TIP 36C STM », STMicroelectronics, TO-247](https://www.reichelt.com/ch/fr/shop/produit/transistor_de_puissance_pnp_100v_25a_125w_to-247-21503)** — **CHF 1.17 TTC** (1.27 €) — en stock, livraison 3–4 jours. **Choix recommandé** : même fabricant et même boîtier que le Q82 d'origine, et le moins cher des distributeurs vérifiés. Autres références : TIP 36C en TO-3PN (CHF 0.97), TIP-36C en TO-218 (CHF 1.20, quantité limitée) ; le BD 250 n'est pas un TIP36C.
-- Les autres pièces chez Reichelt : **non vérifiées**.
+- **Autres pièces chez Reichelt, vérifiées le 02/11/2026** (prix TTC, hors port) :
+  - [2N 5401](https://www.reichelt.com/ch/fr/shop/produit/transistor_bipolaire_pnp_160v_0_6a_0_625w_to-92-2053) : **CHF 0.05**, en stock.
+  - [1N 4004](https://www.reichelt.com/ch/fr/shop/produit/diode_de_redressement_do41_400_v_1_a-1726) : **CHF 0.02**, en stock.
+  - [TIP 107 MBR](https://www.reichelt.com/ch/fr/shop/produit/transistor_darlington_pnp_100v_8a_80w_to-220-21462) : CHF 0.96, mais **pas disponible avant le 06/02/2027**.
+  - Résistance 0,22 Ω 1 W : **absente** (seulement 3 W, en rupture, ou 5 W, plus grosse que l'original).
+  - Flux : seulement du gel en seringue [CW 8500](https://www.reichelt.com/ch/fr/shop/produit/gel_de_flux_cw_8500_-_no_clean-112697), **CHF 17.03**, en stock.
+  - Soudure au plomb Sn60Pb40 : aucun résultat.
+  - Fusibles 6,3 × 32 temporisés : la recherche en trouve en 3,15 A et en 5 A (filtres « träge » et courant), sans détail relevé.
+  - Résistances 68 Ω, 220 Ω et 2,7 kΩ : **non vérifiées**.
 
 ## 1. Indispensable
 
