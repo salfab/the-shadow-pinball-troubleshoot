@@ -15,6 +15,12 @@
 - **Conrad** : **vérifié le 01/11/2026**, relevé à la main dans le navigateur intégré. Prix **TTC**, plus frais de port ; livraison annoncée le 5 novembre pour les pièces en stock. Conrad vend souvent les petites pièces à l'unité, très bon marché, mais **ne couvre pas toute la liste**.
 - **Distrelec** : seules deux pages avaient pu être lues avant un **CAPTCHA** (Radware), qui n'a pas été contourné. Les lignes Distrelec restent **non vérifiées**, sauf les deux marquées « Vérifié ».
 
+## Peut-être déjà en stock (commande Reichelt d'il y a 2–3 ans)
+
+- **TIP102 × 10** (Reichelt « TIP 102 MBR », TO-220, 100 V 8 A) et **tresse à dessouder EL 235**.
+- Si ces pièces sont encore dans le tiroir, **les retirer de la commande** : la réserve TIP102 (4) est déjà couverte, et la tresse aussi.
+- **Reichelt** est une quatrième piste : à l'époque, port CHF 9.50 vers la Suisse, TIP102 à CHF 0.45 pièce. Prix et stock actuels **non vérifiés** (le site a bloqué la vérification automatique).
+
 ## 1. Indispensable
 
 | ✓ | Pièce | Qté | Distrelec | Mouser | Conrad |
