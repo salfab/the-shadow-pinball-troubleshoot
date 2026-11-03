@@ -1,124 +1,94 @@
 # Liste d'achats — réparation de la Power Driver (A-12697-3)
 
-> Préparée le 01/11/2026 pour la séance au banc. Seul **Q82** est certainement défectueux ; le reste est une réserve bon marché pour ne pas bloquer la séance si un test révèle une autre pièce abîmée.
->
-> Trois distributeurs qui livrent en Suisse, en CHF : **Distrelec** (suisse, livraison rapide), **Mouser** et **Conrad**. Choisir un seul distributeur pour tout regrouper et amortir les frais de port.
+> Préparée le 01/11/2026 pour la séance au banc, mise à jour le 02/11/2026. Seul **Q82** est certainement défectueux ; le reste est une réserve bon marché pour ne pas bloquer la séance si un test révèle une autre pièce abîmée.
 >
 > ⚠️ **Boîtier du TIP36C :** prendre le **TO-247 (ou TO-218 / TO-3P)**, comme l'original : plastique large, trou de fixation. Pas le TO-220, plus petit.
-> ⚠️ **Fusibles :** **6,3 × 32 mm**, verre, temporisés (T). Pas 5 × 20 mm.
+> ⚠️ **Fusibles :** **6,3 × 32 mm**, temporisés (T). Pas 5 × 20 mm.
 
-**Date de vérification : 01/11/2026** (Mouser et Conrad, relevés à la main dans le navigateur intégré ; Distrelec, voir ci-dessous)
+**Légende des tableaux** : prix **par pièce, en CHF**, tels qu'affichés sur chaque site (voir la section « Sources » pour HT/TTC). **Gras** = le moins cher qui répond au besoin. « n.v. » = non vérifié. « — » = introuvable. Les quantités à commander (colonne *Qté*) comptent une petite marge.
 
-## État de la vérification (à lire d'abord)
+## Déjà en stock ?
 
-- **Mouser** : **vérifié le 01/11/2026** dans le navigateur intégré (la vérification automatique par Playwright avait été bloquée en « Access Denied », mais la navigation normale passe). Pour chaque ligne, prix unitaire affiché sur mouser.ch (pour 1 pièce ; dégressif en quantité) et stock au moment du relevé. Le boîtier n'a été confirmé sur la fiche que pour le TIP36C (**TO-247-3**). Les prix sont ceux de la page de résultats : HT ou TTC non précisé sur la page, à contrôler au panier.
-- **Conrad** : **vérifié le 01/11/2026**, relevé à la main dans le navigateur intégré. Prix **TTC**, plus frais de port ; livraison annoncée le 5 novembre pour les pièces en stock. Conrad vend souvent les petites pièces à l'unité, très bon marché, mais **ne couvre pas toute la liste**.
-- **Distrelec** : seules deux pages avaient pu être lues avant un **CAPTCHA** (Radware), qui n'a pas été contourné. Les lignes Distrelec restent **non vérifiées**, sauf les deux marquées « Vérifié ».
+- **TIP102 × 10** (Reichelt « TIP 102 MBR », NPN Darlington TO-220 100 V 8 A 80 W, acheté il y a 2–3 ans) : c'est le **bon modèle** et il y en a plus qu'il n'en faut (4 prévus). **Ne pas en recommander.**
+- **Tresse à dessouder EL 235** (Reichelt) : si elle est encore dans le tiroir, la retirer de la commande.
+- Vérifier aussi s'il reste de la **soudure au plomb**, du **flux** et des **fusibles 6,3 × 32**.
 
-## Peut-être déjà en stock (commande Reichelt d'il y a 2–3 ans)
+## 1. Les pièces, distributeur par distributeur
 
-- **TIP102 × 10** (Reichelt « TIP 102 MBR », TO-220, 100 V 8 A) et **tresse à dessouder EL 235**.
-- Si ces pièces sont encore dans le tiroir, **les retirer de la commande** : la réserve TIP102 (4) est déjà couverte, et la tresse aussi.
-- **Reichelt** est une quatrième piste : à l'époque, port CHF 9.50 vers la Suisse, TIP102 à CHF 0.45 pièce.
-- **TIP36C chez Reichelt, relevé par l'utilisateur le 02/11/2026** : **[« TIP 36C STM », STMicroelectronics, TO-247](https://www.reichelt.com/ch/fr/shop/produit/transistor_de_puissance_pnp_100v_25a_125w_to-247-21503)** — **CHF 1.17 TTC** (1.27 €) — en stock, livraison 3–4 jours. **Choix recommandé** : même fabricant et même boîtier que le Q82 d'origine, et le moins cher des distributeurs vérifiés. Autres références : TIP 36C en TO-3PN (CHF 0.97), TIP-36C en TO-218 (CHF 1.20, quantité limitée) ; le BD 250 n'est pas un TIP36C.
-- **Autres pièces chez Reichelt, vérifiées le 02/11/2026** (prix TTC, hors port) :
-  - [2N 5401](https://www.reichelt.com/ch/fr/shop/produit/transistor_bipolaire_pnp_160v_0_6a_0_625w_to-92-2053) : **CHF 0.05**, en stock.
-  - [1N 4004](https://www.reichelt.com/ch/fr/shop/produit/diode_de_redressement_do41_400_v_1_a-1726) : **CHF 0.02**, en stock.
-  - [TIP 107 MBR](https://www.reichelt.com/ch/fr/shop/produit/transistor_darlington_pnp_100v_8a_80w_to-220-21462) : CHF 0.96, mais **pas disponible avant le 06/02/2027**.
-  - Résistance 0,22 Ω 1 W : **absente** (seulement 3 W, en rupture, ou 5 W, plus grosse que l'original).
-  - Flux : seulement du gel en seringue [CW 8500](https://www.reichelt.com/ch/fr/shop/produit/gel_de_flux_cw_8500_-_no_clean-112697), **CHF 17.03**, en stock.
-  - Soudure au plomb Sn60Pb40 : aucun résultat.
-  - Fusibles 6,3 × 32 temporisés : la recherche en trouve en 3,15 A et en 5 A (filtres « träge » et courant), sans détail relevé.
-  - Résistances 68 Ω, 220 Ω et 2,7 kΩ : **non vérifiées**.
+### 1.1 Indispensable
 
-## 1. Indispensable
-
-| ✓ | Pièce | Qté | Distrelec | Mouser | Conrad |
+| Pièce | Qté | Distrelec | Mouser | Conrad | Reichelt |
 |---|---|---|---|---|---|
-| [ ] | **TIP36C** — Q82, sortie de la Sol 01 (en court-circuit). PNP 100 V 25 A, **TO-247 / TO-218 / TO-3P** | 2 | **Vérifié : aucun résultat** pour « TIP36C » chez Distrelec. Non disponible. | **Vérifié** : [STMicroelectronics TIP36C (Mouser n° 511-TIP36C)](https://www.mouser.ch/en/ProductDetail/STMicroelectronics/TIP36C?qs=JV7lzlMm3yLzusij15X%2FdA%3D%3D) — **TO-247-3** — **CHF 2.62** pièce — **3 528 en stock**. Alternative : [onsemi TIP36CG](https://www.mouser.ch/en/ProductDetail/onsemi/TIP36CG?qs=xZq1yRCsb1dOFJSHG5v8%252Bg%3D%3D), CHF 3.94, 822 en stock. À éviter : TIP36CW (STMicro), pas en stock (attendu 30/04/2027). | **Trouvé** : [STMicroelectronics TIP36C, TO-247-3, PNP](https://www.conrad.ch/fr/search.html?search=TIP36C) — **CHF 1.75** pièce — 46 en stock. Moins cher que chez Mouser, mais stock limité. |
+| **TIP36C** — Q82, sortie de la Sol 01 (en court-circuit). PNP 100 V 25 A, **TO-247 / TO-218 / TO-3P** | 2 | **—** (aucun résultat) | **2.62** · ST TIP36C, TO-247-3 · 3 528 en stock · [lien](https://www.mouser.ch/en/ProductDetail/STMicroelectronics/TIP36C?qs=JV7lzlMm3yLzusij15X%2FdA%3D%3D). Variante : onsemi TIP36CG, 3.94 | **1.75** · ST TIP36C, TO-247-3 · 46 en stock · [lien](https://www.conrad.ch/fr/search.html?search=TIP36C) | **1.17** · « TIP 36C STM », ST, **TO-247** · en stock · [lien](https://www.reichelt.com/ch/fr/shop/produit/transistor_de_puissance_pnp_100v_25a_125w_to-247-21503). Variantes : TO-3PN 0.97, TO-218 1.20 (stock limité) |
 
-## 2. Réserve : chaîne de commande de la Sol 01
+### 1.2 Réserve : chaîne de commande de la Sol 01
 
-| ✓ | Pièce | Qté | Distrelec | Mouser | Conrad |
+| Pièce | Qté | Distrelec | Mouser | Conrad | Reichelt |
 |---|---|---|---|---|---|
-| [ ] | **TIP102** — Q81, plus 2 pour les pilotes de rangées de lampes (Q83–Q90). NPN Darlington 100 V 8 A, TO-220 | 4 | **Vérifié** : [ST TIP102, sachet de 5 (art. 305-05-942)](https://www.distrelec.ch/fr/darlington-transistor-npn-100-hfe-200-to-200-5pcs-st-tip102/p/30505942) — **CHF 6.85 HT / 7.41 TTC le sachet de 5** (1 sachet suffit) — **445 en stock**, livraison en 1–2 jours ouvrés. Boîtier TO-220 d'après la fiche (le titre indique « TO-200 », c'est une coquille). | **Vérifié** : STMicroelectronics **TIP102** — **CHF 1.59** pièce — 4 875 en stock ([recherche](https://www.mouser.ch/c/?q=TIP102)). Alternative : onsemi TIP102G, CHF 1.80, 6 467 en stock. | **Introuvable** (la recherche renvoie des fers à souder et des forets). Conrad a des TIP120 / TIP121, qui ne sont pas équivalents. |
-| [ ] | **2N5401** — Q71. PNP 150 V, TO-92 | 2 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=2N5401) | **Vérifié** : **Diotec 2N5401** (TO-92, 150 V, 600 mA) — **CHF 0.145** pièce — 17 932 en stock ([recherche](https://www.mouser.ch/c/?q=2N5401)). Alternative : Rectron 2N5401, CHF 0.333. | **Trouvé** : [Diotec 2N5401, TO-92, PNP](https://www.conrad.ch/fr/search.html?search=2N5401) — **CHF 0.037** — 872 en stock. |
-| [ ] | **1N4004** — roue libre (D17–D32) et « tieback » (D5–D12). DO-41 | 5 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=1N4004) | **Vérifié** : **Diotec 1N4004** (DO-41, 400 V, 1 A) — **CHF 0.137** pièce — 194 379 en stock ([recherche](https://www.mouser.ch/c/?q=1N4004)). | **Trouvé** : [Diotec 1N4004, DO-204AL (= DO-41), 400 V 1 A](https://www.conrad.ch/fr/search.html?search=1N4004) — **CHF 0.03** — 20 387 en stock. |
-| [ ] | **Résistance 68 Ω ½ W** — R124. Traversante | 2 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=resistance%2068%20ohm%200.5W) | **Vérifié (puissance à confirmer)** : Vishay **NFR25H0006809JR500**, couche métallique 68 Ω 5 % — **CHF 0.29** — 11 443 en stock. Contrôler sur la fiche que la puissance est bien ≥ ½ W avant de commander ([recherche](https://www.mouser.ch/c/?q=68%20ohm%200.5W%20through%20hole%20resistor)). | **Trouvé** : Weltron 405116, couche carbone, axiale, 0,5 W — **CHF 0.04** — 1 510 en stock ([recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%2068%20ohm%200%2C5W%20traversante)). |
-| [ ] | **Résistance 220 Ω ¼ W** — R125. Traversante | 2 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=resistance%20220%20ohm%200.25W) | **Vérifié** : KOA Speer **CFS1/4CT52R221J**, couche carbone 220 Ω ¼ W 5 % — **CHF 0.095** — 7 142 en stock ([recherche](https://www.mouser.ch/c/?q=220%20ohm%200.25W%20through%20hole%20resistor)). | **Trouvé** : TRU Components TC-MF0W4FF2200A50203, couche métallique, axiale, 0,25 W — **CHF 0.02** — 5 206 en stock ([recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%20220%20ohm%200%2C25W)). |
-| [ ] | **Résistance 2,7 kΩ ¼ W** — R123. Traversante | 2 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=resistance%202.7k%200.25W) | **Vérifié** : YAGEO **CFR25SJT-26-2K7**, couche carbone 2,7 kΩ ¼ W 5 % — **CHF 0.112** — 10 416 en stock ([recherche](https://www.mouser.ch/c/?q=2.7k%200.25W%20through%20hole%20resistor)). | **Non trouvée** (la recherche a renvoyé des 27 kΩ). À chercher à la main, ou prendre chez Mouser. |
+| **TIP102** — Q81 et pilotes de rangées Q83–Q90. NPN Darlington 100 V 8 A, TO-220 | 4 | 7.41 TTC le sachet de 5 · 445 en stock · [lien](https://www.distrelec.ch/fr/darlington-transistor-npn-100-hfe-200-to-200-5pcs-st-tip102/p/30505942) | 1.59 · ST TIP102 · 4 875 en stock · [recherche](https://www.mouser.ch/c/?q=TIP102) | — (seulement TIP120 / TIP121, non équivalents) | ✅ **Déjà acheté** (10 en stock) |
+| **2N5401** — Q71. PNP 150 V, TO-92 | 2 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=2N5401) | 0.145 · Diotec · 17 932 en stock · [recherche](https://www.mouser.ch/c/?q=2N5401) | 0.037 · Diotec · 872 en stock · [recherche](https://www.conrad.ch/fr/search.html?search=2N5401) | **0.05** · « 2N 5401 » · en stock · [lien](https://www.reichelt.com/ch/fr/shop/produit/transistor_bipolaire_pnp_160v_0_6a_0_625w_to-92-2053) |
+| **1N4004** — roue libre (D17–D32) et « tieback » (D5–D12). DO-41 | 5 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=1N4004) | 0.137 · Diotec · 194 379 en stock · [recherche](https://www.mouser.ch/c/?q=1N4004) | 0.03 · Diotec · 20 387 en stock · [recherche](https://www.conrad.ch/fr/search.html?search=1N4004) | **0.02** · « 1N 4004 » · en stock · [lien](https://www.reichelt.com/ch/fr/shop/produit/diode_de_redressement_do41_400_v_1_a-1726) |
+| **Résistance 68 Ω ½ W** — R124. Traversante | 2 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=resistance%2068%20ohm%200.5W) | 0.29 · Vishay NFR25H0006809JR500 · 11 443 en stock · **puissance à confirmer** sur la fiche · [recherche](https://www.mouser.ch/c/?q=68%20ohm%200.5W%20through%20hole%20resistor) | **0.04** · Weltron 405116, carbone, 0,5 W · 1 510 en stock · [recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%2068%20ohm%200%2C5W%20traversante) | 0.08 · METALL 68,0, métal, 0,6 W, 1 % · en stock · [recherche](https://www.reichelt.com/ch/en/shop/search/metal%20film%20resistor%2068%20ohm) |
+| **Résistance 220 Ω ¼ W** — R125. Traversante | 2 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=resistance%20220%20ohm%200.25W) | 0.095 · KOA CFS1/4CT52R221J · 7 142 en stock · [recherche](https://www.mouser.ch/c/?q=220%20ohm%200.25W%20through%20hole%20resistor) | **0.02** · TRU Components, métal, 0,25 W · 5 206 en stock · [recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%20220%20ohm%200%2C25W) | 0.07 · METALL 220, métal, 0,6 W · en stock · [recherche](https://www.reichelt.com/ch/en/shop/search/metal%20film%20resistor%20220%20ohm) |
+| **Résistance 2,7 kΩ ¼ W** — R123. Traversante | 2 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=resistance%202.7k%200.25W) | **0.112** · Yageo CFR25SJT-26-2K7 · 10 416 en stock · [recherche](https://www.mouser.ch/c/?q=2.7k%200.25W%20through%20hole%20resistor) | — (la recherche a renvoyé des 27 kΩ) | **0.11** · « 1/4W 2,7K », carbone · en stock · [recherche](https://www.reichelt.com/ch/en/shop/search/1%2F4W%202%2C7K) |
 
-## 3. Réserve : zone des lampes qui a « brillé »
+### 1.3 Réserve : zone des lampes qui a « brillé »
 
-| ✓ | Pièce | Qté | Distrelec | Mouser | Conrad |
+| Pièce | Qté | Distrelec | Mouser | Conrad | Reichelt |
 |---|---|---|---|---|---|
-| [ ] | **TIP107** — pilotes des colonnes (Q91–Q98). PNP Darlington 100 V 8 A, TO-220 | 2 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=TIP107) | **Vérifié** : STMicroelectronics **TIP107** — **CHF 1.26** pièce — 5 126 en stock ([recherche](https://www.mouser.ch/c/?q=TIP107)). Alternative : onsemi TIP107G, CHF 1.52, 22 196 en stock. | **Introuvable.** |
-| [ ] | **Résistance 0,22 Ω 1 W** — R150–R153, R172–R175 (mesure des rangées). Axiale, couche métallique / oxyde ou bobinée | 4 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=resistance%200.22%20ohm%201W) | **Vérifié** : YAGEO **KNP100JR-73-0R22**, bobinée axiale 0,22 Ω 1 W 5 % — **CHF 0.233** — 9 396 en stock ([recherche](https://www.mouser.ch/c/?q=0.22%20ohm%201W%20resistor)). Variante miniature : KNP1WSJR-52-0R22, CHF 0.266. | **Trouvé** : Yageo KNP100JT-73-0R22, bobinée axiale, 1 W 5 % — **CHF 0.136** (prix remisé) — 300 en stock ([recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%200%2C22%20ohm%201W)). |
+| **TIP107** — pilotes des colonnes (Q91–Q98). PNP Darlington 100 V 8 A, TO-220 | 2 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=TIP107) | **1.26** · ST TIP107 · 5 126 en stock · [recherche](https://www.mouser.ch/c/?q=TIP107) | — | 0.96 · « TIP 107 MBR » · ⚠️ **indisponible avant le 06/02/2027** · [lien](https://www.reichelt.com/ch/fr/shop/produit/transistor_darlington_pnp_100v_8a_80w_to-220-21462) |
+| **Résistance 0,22 Ω 1 W** — R150–R153, R172–R175 (mesure des rangées). Axiale | 4 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=resistance%200.22%20ohm%201W) | 0.233 · Yageo KNP100JR-73-0R22 · 9 396 en stock · [recherche](https://www.mouser.ch/c/?q=0.22%20ohm%201W%20resistor) | **0.136** · Yageo KNP100JT-73-0R22 (prix remisé) · 300 en stock · [recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%200%2C22%20ohm%201W) | ⚠️ **pas de 1 W** : seulement 5 W (0.28, 25 mm de long) ou plus, plus encombrantes que l'original · [recherche](https://www.reichelt.com/ch/en/shop/search/wirewound%200.22%20ohm%201%20W) |
 
-## 4. Fusibles (6,3 × 32 mm, verre, temporisés)
+### 1.4 Fusibles 6,3 × 32 mm, temporisés
 
-| ✓ | Pièce | Qté | Distrelec | Mouser | Conrad |
+| Pièce | Qté | Distrelec | Mouser | Conrad | Reichelt |
 |---|---|---|---|---|---|
-| [ ] | **T5A 250 V** — remplacement de F108 et réserve GI (F106–F110) | 3 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=fusible%206.3x32%205A%20temporis%C3%A9) | **Vérifié** : Schurter **SPT 6.3 × 32, 250 V 5 A, réf. 0001.2531** — **CHF 4.02** pièce — 558 en stock ([recherche](https://www.mouser.ch/c/?q=6.3x32%20time%20delay%20fuse%205A%20250V)). Cher, mais bon format. | **Trouvé** : Püschel **FSUT5,0B**, 6,3 × 32 mm, 5 A 250 V temporisé, **sachet de 10 pour CHF 3.10** — 52 en stock. 1 sachet suffit, avec de la marge. |
-| [ ] | **T3A 250 V** — réserve pour F101–F105 | 3 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=fusible%206.3x32%203A%20temporis%C3%A9) | **Vérifié (calibre voisin)** : Schurter **SPT 250 V 3,15 A, réf. 0001.2529** — **CHF 3.78** pièce — 463 en stock. Pas de « 3 A » exact trouvé en 6,3 × 32 : le 3,15 A est la valeur normalisée la plus proche ; **à confirmer sur la fiche** que la taille est bien 6,3 × 32 ([recherche](https://www.mouser.ch/c/?q=6.3x32%20time%20delay%20fuse%203A%20250V)). | **Trouvé (3,15 A)** : Püschel **FSUT3,15B**, 6,3 × 32 mm, 3,15 A 250 V temporisé, **sachet de 10 pour CHF 3.10** — 40 en stock. Pas de « 3 A » exact non plus. |
+| **T5A 250 V** — remplacement de F108 et réserve GI (F106–F110) | 3 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=fusible%206.3x32%205A%20temporis%C3%A9) | 4.02 · Schurter SPT 0001.2531 · 558 en stock · [recherche](https://www.mouser.ch/c/?q=6.3x32%20time%20delay%20fuse%205A%20250V) | **3.10 le sachet de 10** · Püschel FSUT5,0B · 52 en stock · [recherche](https://www.conrad.ch/fr/search.html?search=fusible%206%2C3%20x%2032%20mm%205%20A%20temporis%C3%A9) | 1.70 · Littelfuse 0326005.MXP, tube **céramique** · en stock · [recherche](https://www.reichelt.com/ch/en/shop/search/Fuse%206.3x32mm%205A%20Slow-blow) |
+| **T3A 250 V** — réserve pour F101–F105 | 3 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=fusible%206.3x32%203A%20temporis%C3%A9) | 3.78 · Schurter SPT 3,15 A 0001.2529 · 463 en stock · pas de 3 A exact · [recherche](https://www.mouser.ch/c/?q=6.3x32%20time%20delay%20fuse%203A%20250V) | **3.10 le sachet de 10** · Püschel FSUT3,15B (3,15 A) · 40 en stock · [recherche](https://www.conrad.ch/fr/search.html?search=fusible%206%2C3%20x%2032%20mm%203%2C15%20A%20temporis%C3%A9) | 0.94 · Littelfuse 0313003.HXP, 3 A, **verre** · ⏳ livrable le **09/11/2026** · [recherche](https://www.reichelt.com/ch/en/shop/search/Fuse%206.3x32mm%203A%20Slow-blow) |
 
-## 5. Consommables de soudure (si pas déjà en stock)
+### 1.5 Consommables de soudure (si pas déjà en stock)
 
-| ✓ | Pièce | Qté | Distrelec | Mouser | Conrad |
+| Pièce | Qté | Distrelec | Mouser | Conrad | Reichelt |
 |---|---|---|---|---|---|
-| [ ] | **Flux** sans nettoyage, en stylo ou en seringue | 1 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=flux%20soudure) | **Vérifié** : Chip Quik **CQ4LF**, flux no-clean, stylo 10 ml — **CHF 6.40** — 1 036 en stock ([recherche](https://www.mouser.ch/c/?q=no%20clean%20flux%20pen)). | **Pas de stylo no-clean trouvé** ; seulement du flux liquide au litre (Stannol EF350, CHF 24.95) : trop. |
-| [ ] | **Tresse à dessouder** (2 à 2,5 mm) | 1 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=tresse%20%C3%A0%20dessouder) | **Vérifié** : Soldered **555022**, tresse 2 mm — **CHF 2.15** — 900 en stock ([recherche](https://www.mouser.ch/c/?q=desoldering%20braid)). | **Trouvé** : Stannol Solder Ex, 2,5 mm × 1,6 m, flux imprégné — **CHF 2.10** — 1 021 en stock (aussi : Toolcraft ZD-180, 3 mm, CHF 1.65). |
-| [ ] | **Soudure fine au plomb** (Sn60/Pb40 ou Sn63/Pb37, 0,5 à 0,8 mm), petite bobine | 1 | Non vérifié — [recherche](https://www.distrelec.ch/fr/search?q=soudure%20Sn60Pb40%200.8mm) | **Vérifié** : Chip Quik **SMDSW.031 1oz**, fil 63/37 no-clean 0,031″ (≈ 0,8 mm), 1 oz (28 g) — **CHF 11.21** — 54 en stock. Version 0,020″ (≈ 0,5 mm) : SMDSW.020, CHF 11.44 ([recherche](https://www.mouser.ch/c/?q=Sn63Pb37%20solder%20wire)). Les autres références 63/37 de Mouser sont des bobines de 1 lb à ~100 CHF : trop. | **Pas trouvée** : seulement du sans plomb (Sn99,3Cu0,7). Pas adapté si l'on veut du Sn60/Pb40 ou Sn63/Pb37. |
+| **Flux** sans nettoyage, stylo ou seringue | 1 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=flux%20soudure) | 6.40 · Chip Quik CQ4LF, stylo 10 ml · 1 036 en stock · [recherche](https://www.mouser.ch/c/?q=no%20clean%20flux%20pen) | — (seulement du flux liquide au litre, 24.95) | **5.98** · Stannol X32-10i, stylo 10 ml · en stock · [recherche](https://www.reichelt.com/ch/en/shop/search/flux%20pen). Autre : gel CW 8500, 17.03 |
+| **Tresse à dessouder** (2 à 2,5 mm) | 1 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=tresse%20%C3%A0%20dessouder) | 2.15 · Soldered 555022, 2 mm · 900 en stock · [recherche](https://www.mouser.ch/c/?q=desoldering%20braid) | **2.10** · Stannol Solder Ex, 2,5 mm × 1,6 m · 1 021 en stock · [recherche](https://www.conrad.ch/fr/search.html?search=tresse%20%C3%A0%20dessouder) | 4.25 · CFH EL 235, 2 mm × 1,6 m · en stock · [recherche](https://www.reichelt.com/ch/en/shop/search/desoldering%20braid) |
+| **Soudure fine au plomb** (Sn60/Pb40 ou Sn63/Pb37, 0,5 à 0,8 mm), petite bobine | 1 | n.v. · [recherche](https://www.distrelec.ch/fr/search?q=soudure%20Sn60Pb40%200.8mm) | **11.21** · Chip Quik SMDSW.031, 63/37 no-clean, 0,8 mm, 1 oz · 54 en stock · [recherche](https://www.mouser.ch/c/?q=Sn63Pb37%20solder%20wire) | — (seulement du sans plomb) | — (60/40 et 63/37 ne renvoient rien d'utile) |
 
-## 6. Ampoule de flasher (hors tableau)
+### 1.6 Ampoule de flasher (hors tableau)
 
-- [ ] **Ampoule de flasher** × 2 — flasher Sol 26 de la tête. Probablement une **#906** (culot à coin) : **vérifier d'abord celle en place** avant de commander. Plutôt chez un revendeur de pièces de flipper (par exemple [Marco Specialties](https://www.marcospecialties.com/), qui livre à l'international), ou chez un revendeur européen de pièces de flipper. Disponibilité d'une #906 chez Distrelec, Mouser ou Conrad : **non vérifiée**.
+- [ ] **Ampoule de flasher** × 2 — flasher Sol 26 de la tête. Probablement une **#906** (culot à coin) : **vérifier d'abord celle en place** avant de commander. Plutôt chez un revendeur de pièces de flipper (par exemple [Marco Specialties](https://www.marcospecialties.com/), qui livre à l'international). Disponibilité chez les quatre distributeurs ci-dessus : non vérifiée.
 
-## Totaux estimés et frais de port
+## 2. Combien ça coûte, port compris
 
-Total Mouser calculé avec les prix unitaires relevés (pièce seule, hors port, HT/TTC à confirmer au panier) :
+Total de la liste ci-dessus **sans les TIP102** (déjà en stock) et en prenant, pour chaque distributeur, la référence listée. Un sachet de 10 fusibles chez Conrad (2 sachets, un par calibre) couvre le besoin.
 
-| Bloc | Détail | CHF |
-|---|---|---|
-| Indispensable | 2 × TIP36C (2.62) | 5.24 |
-| Réserve Sol 01 | 4 × TIP102 (1.59) + 2 × 2N5401 (0.145) + 5 × 1N4004 (0.137) + 2 × 68 Ω (0.29) + 2 × 220 Ω (0.095) + 2 × 2,7 kΩ (0.112) | 8.33 |
-| Réserve lampes | 2 × TIP107 (1.26) + 4 × 0,22 Ω (0.233) | 3.45 |
-| Fusibles | 3 × T5A (4.02) + 3 × T3,15 A (3.78) | 23.40 |
-| Consommables | flux 6.40 + tresse 2.15 + soudure 11.21 | 19.76 |
-| **Total Mouser** | | **≈ 60.18** |
+| | Distrelec | Mouser | Conrad | Reichelt |
+|---|---|---|---|---|
+| **Marchandises** | impossible (pas de TIP36C) | ≈ 53.82 | ≈ 12.69 | ≈ 19.56 (+ 2.82 pour le T3A, dès le 09/11) |
+| **Frais de port vers la Suisse** | n.v. | 23.00 (UPS) | 9.95 (CHF 15.95 pour un professionnel) | ≈ 9.50 (DPD, € 10.33, jusqu'à 10 kg) |
+| **Gratuit dès** | n.v. | CHF 70 (sur la plupart des commandes) | CHF 200 | non trouvé |
+| **Total, port compris** | — | **≈ 76.82** | ≈ 22.64 | **≈ 29.06** |
+| **Ce qui manque** | tout ou presque | rien | TIP107, 2,7 kΩ, flux, soudure | TIP107, T3A (dès le 09/11), 0,22 Ω 1 W, soudure |
 
-(Sans les consommables ni les fusibles : ≈ 17.02.)
+*Détail Mouser* : TIP36C 5.24 + 2N5401 0.29 + 1N4004 0.69 + 68 Ω 0.58 + 220 Ω 0.19 + 2,7 kΩ 0.22 + TIP107 2.52 + 0,22 Ω 0.93 + fusibles 23.40 + flux 6.40 + tresse 2.15 + soudure 11.21.
+*Détail Conrad* : TIP36C 3.50 + 2N5401 0.07 + 1N4004 0.15 + 68 Ω 0.08 + 220 Ω 0.04 + 0,22 Ω 0.55 + 2 sachets de fusibles 6.20 + tresse 2.10.
+*Détail Reichelt* : TIP36C 2.34 + 2N5401 0.10 + 1N4004 0.15 + 68 Ω 0.16 + 220 Ω 0.14 + 2,7 kΩ 0.22 + 0,22 Ω en 5 W 1.12 + T5A 5.10 + flux 5.98 + tresse 4.25.
 
-Total Conrad, pour ce qui y est disponible (TIP36C, 2N5401, 1N4004, résistances 68 Ω / 220 Ω / 0,22 Ω, un sachet de chaque fusible, tresse) : **≈ CHF 12.69 TTC**, hors port. Il manque **TIP102, TIP107, résistances 2,7 kΩ, flux et soudure au plomb**.
+Si la tresse est déjà dans le tiroir, retirer 2.15 (Mouser), 2.10 (Conrad) ou 4.25 (Reichelt).
 
-| | Distrelec | Mouser | Conrad |
-|---|---|---|---|
-| Total vérifié | CHF 6.85 HT (TIP102 seulement) | ≈ CHF 60.18 (liste complète, prix unitaires) | ≈ CHF 12.69 TTC (liste incomplète) |
-| Total complet | Impossible : pas de TIP36C | ≈ CHF 60.18 | Impossible : 5 pièces manquantes |
+## 3. Recommandation
 
-### Frais de port (relevés le 01/11/2026)
+1. **Le moins cher : Reichelt, ≈ CHF 29 port compris.** Il a **le TIP36C en TO-247** (CHF 1.17, en stock), qui est la seule pièce indispensable, et la plus grande partie de la réserve.
+2. **Ce que Reichelt ne couvre pas** : la **soudure au plomb** (à prendre dans un magasin local, ou chez Mouser à CHF 11.21), les **TIP107** (non essentiels, en rupture jusqu'en juin 2027) et la **résistance 0,22 Ω 1 W** (la 5 W de Reichelt, **après avoir vérifié la place** sur la carte ; sinon Conrad ou Mouser). Un second distributeur ajoute son port (CHF 9.95 ou 23) : à éviter si une alternative locale existe.
+3. **Tout au même endroit : Mouser, ≈ CHF 77** (≈ CHF 70 si on complète le panier jusqu'à CHF 70 pour obtenir la gratuité du port). Plus cher, mais un seul envoi et rien ne manque.
+4. **Conrad seul** ne suffit pas (pas de TIP107, 2,7 kΩ, flux ni soudure), mais il est le moins cher pour les fusibles (10 pour CHF 3.10) et le 0,22 Ω.
 
-| Distributeur | Frais de port | Gratuit dès | Source |
-|---|---|---|---|
-| **Mouser** | CHF 23.00 (UPS Worldwide Express Saver) ; droits et douane payés par Mouser (DDP) | CHF 70 (sur la plupart des commandes) | Panier mouser.ch (une pièce mise au panier, puis retirée ; rien commandé) |
-| **Conrad** | CHF 9.95 (particulier) ; CHF 15.95 (professionnel) | CHF 200 TTC | [Aide Conrad](https://help.conrad.ch/hc/fr-ch/articles/360001281777-A-combien-s-%C3%A9l%C3%A8vent-les-frais-de-port-standard-chez-Conrad) |
-| **Distrelec** | Non vérifié | Non vérifié | Page bloquée |
+## Sources et réserves
 
-### Coût total, port compris
+- **Reichelt** (reichelt.com/ch, relevé le **02/11/2026** dans le navigateur intégré) : prix en CHF **TTC (TVA suisse 8,1 %)** ; pas de douane ni de TVA à l'importation pour la Suisse ; livraison 3–4 jours ouvrés pour ce qui est en stock. Frais de port : [page officielle](https://www.reichelt.com/ch/en/shop/service/-12_28).
+- **Mouser** (mouser.ch, relevé le **01/11/2026**) : prix unitaires pour 1 pièce (dégressifs) ; HT ou TTC **non précisé** sur la page, à contrôler au panier. Port lu au panier (une pièce mise au panier puis retirée, rien commandé) ; droits et douane payés par Mouser (DDP). Boîtier confirmé sur fiche seulement pour le TIP36C (TO-247-3).
+- **Conrad** (conrad.ch, relevé le **01/11/2026**) : prix **TTC**, plus frais de port ; livraison annoncée le 5 novembre pour les pièces en stock. Frais de port : [aide Conrad](https://help.conrad.ch/hc/fr-ch/articles/360001281777-A-combien-s-%C3%A9l%C3%A8vent-les-frais-de-port-standard-chez-Conrad).
+- **Distrelec** : seules deux pages ont pu être lues avant un **CAPTCHA** (Radware), non contourné. Tout le reste est « n.v. » (à contrôler à la main).
+- Les prix et les stocks changent : **recontrôler au moment de commander**.
 
-| Scénario | Marchandises | Port | **Total** |
-|---|---|---|---|
-| Tout chez Mouser | ≈ 60.18 | 23.00 | **≈ 83.18** |
-| Tout chez Mouser, panier complété pour atteindre CHF 70 | ≥ 70.00 | 0 | **≈ 70.00** |
-| Conrad (ce qu'il a) + Mouser (le reste : TIP102, TIP107, 2,7 kΩ, flux, soudure) | 12.69 + 26.71 | 9.95 + 23.00 | **≈ 72.35** |
-| Conrad seul (liste incomplète, 5 pièces manquantes) | 12.69 | 9.95 | ≈ 22.64 |
-
-## Recommandation
-
-**Port compris, le plus avantageux est de tout commander chez Mouser en dépassant CHF 70** : le port (CHF 23) devient gratuit, pour environ CHF 70 en tout. Le panier complet fait ≈ CHF 60 : il manque environ 10 CHF, qu'on peut employer à des pièces de réserve utiles (par exemple quelques TIP36C ou TIP102 de plus, ou un second stylo de flux). Mouser seul, sous CHF 70, coûte ≈ CHF 83 port compris. Panacher Conrad et Mouser (≈ CHF 72) ne fait pas mieux et oblige à deux commandes.
-
-**Tout commander chez Mouser.** Il a le **TIP36C en TO-247-3** (CHF 2.62, 3 528 en stock), indispensable et absent chez Distrelec, et tout le reste de la liste est en stock au même endroit : un seul envoi. À vérifier au panier : les frais de port vers la Suisse et si les prix sont HT ou TTC. Ce qui coûte le plus, ce sont les fusibles et la soudure ; si l'on a déjà de la soudure ou des fusibles de rechange, la commande tombe autour de 17 à 30 CHF (hors port).
-
----
-
-**À vérifier au moment de commander :** la tension (au moins celle indiquée), le boîtier (TO-247 / TO-218 pour le TIP36C, TO-220 pour TIP102 et TIP107), la puissance de la résistance 68 Ω (≥ ½ W), et la taille des fusibles (6,3 × 32 mm, pas 5 × 20 mm).
+**À vérifier au moment de commander :** la tension (au moins celle indiquée), le boîtier (TO-247 / TO-218 pour le TIP36C, TO-220 pour TIP102 et TIP107), la puissance de la résistance 68 Ω (≥ ½ W), la taille des fusibles (6,3 × 32 mm, pas 5 × 20 mm) et la place disponible pour une 0,22 Ω de 5 W.

@@ -1,1 +1,4 @@
 # Recent
+
+## 2026-11-01
+Created a private GitHub backup repo for The Shadow pinball troubleshooting, scripted via sauvegarde.ps1, with large bundles excluded and local history purged (force-push unconfirmed). Diagnostics: flashers and 50 V lines validated with no short; F107/F108 fuses confirmed, F108 has a brown deposit and needs replacing; F1 coil resistances measured; Fliptronic flippers not started; board not reinstallable pending 0R22, transistor, and PCB checks. Purchase list liste-achats.md compiled (Mouser ≈ CHF 60 excl. shipping; Conrad, Distrelec, and Reichelt checked, several parts unverified); no order placed. Pending: Mouser API key from user, bench repair of Q82 next session, manual PDF is image-only (OCR not installed).

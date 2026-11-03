@@ -1,3 +1,3 @@
 
-## 23:05 | main
-Recherche Playwright des 15 pièces : Distrelec terminé (résultats sauvegardés), Mouser bloqué par CAPTCHA, en attente de la clé API Mouser de l'utilisateur ; purge historique GitHub non lancée, attend confirmation explicite.
+## 22:21 | main
+Liste d'achats pour la réparation du flipper (The Shadow, carte Q82) mise à jour : Conrad fusionné dans les tableaux, TIP36C Reichelt (CHF 1,17) noté, plan revu en test sur carte avant commande unique, et commits `b6c2428`, `df7ce80`, `d05de6e` poussés ; le TIP36C n'est pas encore commandé et la liste finale attend la séance du jour (carte à sortir de la machine, photos des fiches à faire).
