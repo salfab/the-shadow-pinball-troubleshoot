@@ -7,6 +7,14 @@
 
 **Légende des tableaux** : prix **par pièce, en CHF**, tels qu'affichés sur chaque site (voir la section « Sources » pour HT/TTC). **Gras** = le moins cher qui répond au besoin. « n.v. » = non vérifié. « — » = introuvable. Les quantités à commander (colonne *Qté*) comptent une petite marge.
 
+## Résultat des tests au banc du 05/11/2026 (carte sortie, tests en circuit)
+
+- **Défectueux, confirmé :** **Q82** (TIP36C, court-circuit C-E), **Q86** (TIP102 d'une rangée de lampes, court-circuit C-E), **R153** (0,22 Ω 1 W, coupée). La résistance 0,22 Ω passe donc d'« réserve » à **indispensable** (1 pièce, le reste en réserve).
+- **Q86 :** un TIP102 du stock Reichelt, rien à commander.
+- **Sains :** les 7 autres 0,22 Ω, les TIP102 des rangées (Q83–Q85, Q87–Q90), les **8 TIP107** des colonnes (les TIP107 deviennent une simple réserve, non nécessaire), Q32 et D11 (réparation de l'utilisateur), les autres TIP102 des sorties (à remesurer le 06/11) et **toutes les diodes 1N4004** (vérifiées deux fois).
+- **Étage Sol 01 (Q81, Q71, R123–R125) :** remplacé comme prévu ; Q81 (ST TIP102) sera remesuré hors circuit.
+- **En suspens :** C7 (15 000 µF, dépôt gris sur le dessus) ; pied, soudures et bombement à inspecter avant d'ajouter C6/C7 à la commande.
+
 ## Déjà en stock ?
 
 - **TIP102 × 10** (Reichelt « TIP 102 MBR », NPN Darlington TO-220 100 V 8 A 80 W, acheté il y a 2–3 ans) : c'est le **bon modèle** et il y en a plus qu'il n'en faut (4 prévus). **Ne pas en recommander.**

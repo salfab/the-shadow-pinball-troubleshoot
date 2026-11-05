@@ -166,3 +166,35 @@ Aucune bobine trop basse, donc aucune ne peut griller un transistor.
 - Le **TIP36C** (Q82) existe chez Mouser en **TO-247-3**, à CHF 2.62 et en stock ; Distrelec n'en a pas. Tout le reste de la liste est aussi en stock chez Mouser : total ≈ CHF 60 hors port (≈ 17 sans fusibles ni consommables).
 - Restent à confirmer au moment de commander : le fusible 3 A (seul le 3,15 A trouvé), la puissance de la résistance 68 Ω, les frais de port et le HT/TTC.
 - Conrad, frais de port et Reichelt vérifiés ensuite : Mouser coûte CHF 23 de port (gratuit dès 70), Conrad 9.95. Les TIP102 avaient déjà été achetés chez Reichelt (bon modèle : NPN Darlington TO-220 100 V 8 A). Reichelt a le TIP36C en TO-247 à CHF 1.17 : le reste de la liste y revient à ≈ CHF 29 port compris (il manque la soudure au plomb, les TIP107 et le 0,22 Ω 1 W).
+
+## Séance 3 — jeudi 5 novembre 2026 (≈ 11 h 30 – 18 h 20)
+
+### Photos et décharge (matin)
+
+- Photos de toute la carte encore en place, puis des fiches débranchées, de J106/J107 (propres, pas de trace de chauffe) et du dessus de C7 (un dépôt gris, à vérifier).
+- Tension des gros condensateurs, cordon débranché : TP6 0 V, TP7 0,25 V, TP8 0,614 V, TP1 0,01 V. Les petits restes sont normaux : les LED qui vident les condensateurs s'arrêtent sous leur seuil.
+
+### La carte sort de la machine
+
+- Toutes les fiches étiquetées et débranchées, carte posée sur la table.
+- Côté pistes, deux traces : **A**, du flux brûlé autour de Q32 et D11 (ma réparation d'il y a quelques années, saine et du bon type) ; **B**, une pastille noircie sous Q91 (Q91 sain).
+
+### Les mesures sans dessouder (après-midi)
+
+- **Résistances 0,22 Ω des rangées** : sept à 0,4 Ω, **R153 coupée**. Elle protège **Q86**, un TIP102… **en court-circuit**. Sans doute la lueur dont je me souvenais : le transistor ne coupait plus, et seule la résistance limitait le courant jusqu'à griller.
+- Les autres pilotes de rangées et les huit pilotes de colonnes sont sains.
+- **Q82** (Sol 01) : court-circuit franc, la confirmation au banc de la bobine collée. Q81, lui, porte bien un marquage TIP102 : ma note de la première séance était fausse.
+- Les autres transistors des sorties : rien d'anormal, à refaire demain pour en être sûr. Toutes les diodes vérifiées deux fois : cohérentes.
+
+### Ce que j'en retiens
+
+- **Une 0,22 Ω en OL, c'est forcément coupée** : en circuit, les autres chemins ne peuvent que faire baisser la valeur.
+- **Comparer avec un voisin identique** évite de prendre un chemin parallèle pour une panne (Q80 : 500 mV / 1775 mV, signature d'une sortie saine).
+- **Un composant en court-circuit fausse la mesure de ses voisins** (Q81 derrière Q82) : on mesure le reste une fois la pièce enlevée.
+- **La lumière rasante** fait apparaître des marquages invisibles sur une photo de face.
+
+### Photos de la séance
+
+- `photos/2026-11-05_S3_*.jpg` (carte en place, sortie, côté pistes, marquages).
+- Annotées : `photos/2026-11-05_annotee_*.jpg`, `plan-PD_TP6-TP5_condensateurs.png`, `plan-PD_R151-R153.png`, `plan-PD_Q91-Q98_colonnes.png`.
+
