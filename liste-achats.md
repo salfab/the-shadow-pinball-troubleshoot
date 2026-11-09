@@ -1,8 +1,9 @@
 # Liste d'achats — réparation de la Power Driver (A-12697-3)
 
-> Version du **09/11/2026** : **deux listes de courses**, chiffrées avec la TVA, le port et le supplément pour petite commande (voir « Listes de courses : deux options », en fin de fichier). Pas encore choisi :
+> Version du **09/11/2026** : **trois listes de courses**, chiffrées avec la TVA, le port et le supplément pour petite commande (voir « Listes de courses : trois options », en fin de fichier). Pas encore choisi :
 > - **liste A**, tout chez Mouser : **CHF 59.79**, un colis ;
-> - **liste B**, Farnell + Reichelt : **CHF 48.94**, deux colis, sans le fusible 3/8 A de réserve.
+> - **liste B**, Farnell + Reichelt : **CHF 48.94**, deux colis, sans le fusible 3/8 A de réserve ;
+> - **liste C**, tout chez Reichelt : **CHF 34.51**, un colis, à commander après le 16/11, sans les fusibles 3/4 A et 3/8 A de réserve.
 >
 > Version du 07/11/2026 : compatibilité vérifiée contre la liste des pièces du manuel, liens directs Mouser, **panier Mouser monté et chiffré : CHF 55.31 port compris, hors TVA** (voir « Liste A »). Tests de la carte sortie : 05 et 06/11, détail dans `journal-diagnostic-the-shadow.md`, §4, lignes S3-*.
 >
@@ -10,7 +11,7 @@
 
 ## Panier Mouser (liens directs)
 
-> Ce panier est devenu la **liste A** (CHF 59.79 TVA comprise). La **liste B**, Farnell + Reichelt, revient à CHF 48.94, en deux colis et sans le fusible 3/8 A. Voir « Listes de courses : deux options », en fin de fichier, et le § 5.
+> Ce panier est devenu la **liste A** (CHF 59.79 TVA comprise). La **liste B**, Farnell + Reichelt, revient à CHF 48.94, en deux colis. La **liste C**, tout chez Reichelt après le 16/11, revient à CHF 34.51. Voir « Listes de courses : trois options », en fin de fichier, et le § 5.
 
 Relevé le **07/11/2026** sur mouser.ch, puis vérifié au panier le même jour : minimum 1 pièce partout. Seule la 220 Ω Vishay était en rupture : remplacée par une Yageo au carbone, même valeur et même puissance. Prix en CHF ; la TVA n'apparaît pas au panier. Port : **CHF 23.00** (gratuit dès CHF 70), sans supplément pour petite commande.
 
@@ -38,6 +39,7 @@ Relevé le **07/11/2026** sur mouser.ch, puis vérifié au panier le même jour 
 - **Stock vérifié le 07/11** : tresse et soudure au plomb en stock, donc pas à commander. Kit de fusibles de réserve ajouté le 07/11, d'après la **liste des fusibles du manuel p. 1-52** (`docs/manuel-the-shadow/1-52_fusibles.png`).
 - **Panier monté le 07/11** (pièces de la carte + fusibles + flux) : **CHF 32.31 + 23.00 de port = CHF 55.31**. Détail et lien de partage dans la « Liste A », en fin de fichier. Seuil de port gratuit : CHF 70 de marchandises.
 - **Farnell (09/11)** : les mêmes lignes, sauf le flux et le fusible 3/8 A, coûtent **CHF 36.54 TVA et port compris**. Avec le flux et les TIP36C pris chez Reichelt : **≈ CHF 48.94 TVA comprise**, en deux colis. Voir la « Liste B », en fin de fichier.
+- **Reichelt seul (09/11)** : liste C, **CHF 34.51 TVA comprise**, un colis, à commander après le 16/11, quand la 0,22 Ω revient en stock. Voir la « Liste C », en fin de fichier.
 - Format 6,3 × 32 mm confirmé sur la Power Driver seulement ; carte son, Fliptronic et affichage à vérifier d'un coup d'œil. Fusible du filtre secteur (5 A S.B., version export) non inclus : format non indiqué au manuel.
 - **Hors commande** : alcool isopropylique (IPA, 99 % si possible) en pharmacie ou droguerie, pour nettoyer le flux.
 - 0,22 Ω : 10 pièces coûtent 1.47 au lieu de 0.93 pour 4, si tu veux plus de réserve. 1N4004 : le lot de 10 (0.58) coûte moins cher que 5 à l'unité (0.69).
@@ -67,6 +69,13 @@ Chaque pièce comparée à la **liste des pièces A-12697-3** (manuel, p. 2-8 : 
 - R124, R125 et R123 : Multicomp Pro MCF au carbone, mêmes valeurs et mêmes puissances (½ W, ½ W, ¼ W) ✅.
 - Diodes : onsemi 1N4004RL, la même 1N4004 livrée en bande ✅.
 - TIP36C, 2N5401 et fusibles : mêmes références que chez Mouser ✅.
+
+*Liste C, Reichelt (09/11) :*
+- R153 : Vitrohm CR254, bobinée, 3 W 5 %, 12,6 × Ø5,5 mm. Tient entre les trous ; l'originale mesure 11 × Ø6 mm ✅. 3 W au lieu de 1 W : même valeur, simplement plus de marge.
+- R124, R125 et R123 : couche métallique 1 %, 0,6 W, format 0207, pour du ½ W ou du ¼ W demandé ✅.
+- F108 et sa réserve : KU-TR 5 A temporisé, en céramique ✅. Même format 6,3 × 32 mm que le verre, et il supporte mieux un gros court-circuit.
+- F112 (Littelfuse 0313007.HXP), F101–F105 (0313003.HXP) et F114 (ESKA 632.026, 8 A rapide, verre) ✅.
+- 2N5401 de marque CDIL et 1N4004 : mêmes références ✅. Vérifier le brochage E-B-C du 2N5401 avant de le souder.
 
 ## 1. À commander
 
@@ -140,23 +149,23 @@ Prix par pièce en CHF, **relevés les 01 et 02/11/2026** (Mouser relu le 07/11/
 | Pièce | Mouser | Farnell | Conrad | Reichelt |
 |---|---|---|---|---|
 | TIP36C, TO-247 | 2.62 · ST · [lien](https://www.mouser.ch/en/ProductDetail/STMicroelectronics/TIP36C?qs=JV7lzlMm3yLzusij15X%2FdA%3D%3D) | 2.49 · ST · [lien](https://ch.farnell.com/fr-CH/stmicroelectronics/tip36c/transistor-pnp-boitier-to-218/dp/9936130) | 1.75 · ST · 46 en stock · [lien](https://www.conrad.ch/fr/p/stmicroelectronics-transistor-bjt-discret-tip36c-to-247-3-1-pnp-155457.html) | **1.16** · ST, en stock (09/11) · [lien](https://www.reichelt.com/ch/fr/shop/produit/transistor_de_puissance_pnp_100v_25a_125w_to-247-21503) |
-| 0,22 Ω 1 W | **0.233** (0.147 dès 10) · Yageo KNP100JR-73-0R22 · Ø4,6 × 11,5 mm · **min. 1** · [lien](https://www.mouser.ch/en/ProductDetail/YAGEO/KNP100JR-73-0R22?qs=wcZjbqjoJehe%2FtK%2F9xdtBg%3D%3D) | **0.096** · Multicomp Pro MCKNP01WJ022KA10, bobinée · Ø5 × 12 mm · **min. 1** · [lien](https://ch.farnell.com/fr-CH/multicomp-pro/mcknp01wj022ka10/resistance-bobinee-0r22-5-1w/dp/1903680) | 0.136 · Yageo KNP100JT-73-0R22 · ⚠️ **min. 100, par multiples de 100 : CHF 13.64 minimum** · [lien](https://www.conrad.ch/fr/p/yageo-knp100jt-73-0r22-resistance-bobinee-0-22-sortie-axiale-0411-1-w-5-1-pc-s-tape-3464411.html) | — (5 W seulement, ne tient pas) |
-| 2N5401 | 0.145 · Diotec · [lien](https://www.mouser.ch/en/ProductDetail/Diotec-Semiconductor/2N5401?qs=OlC7AqGiEDkcJQvsxuzVvg%3D%3D) | 0.124 · Diotec · ⚠️ **min. 5 : CHF 0.62** · [lien](https://ch.farnell.com/fr-CH/diotec-semiconductor/2n5401/transistor-pnp-150v-0-6a-to-92/dp/4710237) | 0.037 · ⚠️ **min. 100 : CHF 3.70 minimum** · [lien](https://www.conrad.ch/fr/p/diotec-transistor-bjt-discret-2n5401-to-92-pnp-2808997.html) | 0.05 · [lien](https://www.reichelt.com/ch/fr/shop/produit/transistor_bipolaire_pnp_160v_0_6a_0_625w_to-92-2053) |
-| 1N4004 | 0.137 (0.058 dès 10) · Diotec · [lien](https://www.mouser.ch/en/ProductDetail/Diotec-Semiconductor/1N4004?qs=OlC7AqGiEDk3eaZusDVIWQ%3D%3D) | 0.202 (0.0875 dès 10) · onsemi 1N4004RL · min. 5 · [lien](https://ch.farnell.com/fr-CH/onsemi/1n4004rl/diode-1a-400v/dp/9556109) | 0.03 · ⚠️ **min. 70 : CHF 2.10 minimum** · [lien](https://www.conrad.ch/fr/p/diotec-diode-de-redressement-si-1n4004-do-204al-400-v-1-a-162248.html) | **0.02** · [lien](https://www.reichelt.com/ch/fr/shop/produit/diode_de_redressement_do41_400_v_1_a-1726) |
-| 68 Ω ½ W | 0.29 · Vishay NFR25H, 0,5 W confirmé · [lien](https://www.mouser.ch/en/ProductDetail/Vishay-BC-Components/NFR25H0006809JR500?qs=gQQ%2FpDEpiRKwYWNGueF5Vg%3D%3D) | 0.0531 · Multicomp Pro MCF, carbone 0,5 W · ⚠️ **min. 5 : CHF 0.27** · [lien](https://ch.farnell.com/fr-CH/multicomp-pro/mcf-0-5w-68r/resistance-0-5w-5-68r/dp/9338918) | 0.04 · Weltron 405116 · ⚠️ **min. 70 : CHF 2.80 minimum** · [lien](https://www.conrad.ch/fr/p/resistance-a-couche-carbone-weltron-405116-68-sortie-axiale-0411-0-5-w-1-pc-s-405116.html) | 0.08 · [recherche](https://www.reichelt.com/ch/en/shop/search/metal%20film%20resistor%2068%20ohm) |
-| 220 Ω **½ W** | 0.08 · Yageo CFR-50JB-52-220R, carbone 0,5 W · [lien](https://www.mouser.ch/en/ProductDetail/YAGEO/CFR-50JB-52-220R?qs=oypCK0zG326TESPIftbMYg%3D%3D) (Vishay NFR25H à 0.378 : en rupture le 07/11) | 0.0535 · Multicomp Pro MCF, carbone 0,5 W · ⚠️ **min. 5 : CHF 0.27** · [lien](https://ch.farnell.com/fr-CH/multicomp-pro/mcf-0-5w-220r/resistance-0-5w-5-220r/dp/9338594) | ⚠️ seulement du ¼ W relevé (0.02, TRU Components) : **ne convient pas** · [recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%20220%20ohm%200%2C25W) | **0.07** · METALL 220, **0,6 W** : convient · [recherche](https://www.reichelt.com/ch/en/shop/search/metal%20film%20resistor%20220%20ohm) |
-| 2,7 kΩ ¼ W | 0.112 · Yageo CFR25SJT · [lien](https://www.mouser.ch/en/ProductDetail/YAGEO/CFR25SJT-26-2K7?qs=xZ%2FP%252Ba9zWqYr54wciWJIlQ%3D%3D) | 0.0324 · Multicomp Pro MCF, carbone · ⚠️ **min. 10 : CHF 0.32** · [lien](https://ch.farnell.com/fr-CH/multicomp-pro/mcf-0-25w-2k7/resistance-0-25w-5-2k7/dp/9339361) | — | **0.11** · [recherche](https://www.reichelt.com/ch/en/shop/search/1%2F4W%202%2C7K) |
-| Fusible 5 A temporisé, 3AG (6,3 × 32) | 1.24 · Littelfuse 0313005.HXP, verre · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0313005.HXP?qs=8QfiMw8FY5OwXK2QPOUCgQ%3D%3D) (Schurter 0001.2531 : 4.02) | 1.22 (0.978 dès 5) · Littelfuse 0313005.HXP, verre · [lien](https://ch.farnell.com/fr-CH/littelfuse/0313005-hxp/fusible-cartouche-tempo-5a-250v/dp/3515943) | **3.10 le sachet de 10** · Püschel FSUT5,0B · [recherche](https://www.conrad.ch/fr/search.html?search=fusible%206%2C3%20x%2032%20mm%205%20A%20temporis%C3%A9) | 1.70 · céramique · [recherche](https://www.reichelt.com/ch/en/shop/search/Fuse%206.3x32mm%205A%20Slow-blow) |
-| Fusible 3 A temporisé, 3AG (6,3 × 32) | 1.10 · Littelfuse 0313003.HXP, **3 A exact**, verre · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0313003.HXP?qs=WtG364jHAdzb9YdwG1OIXA%3D%3D) | 1.23 (0.872 dès 5) · Littelfuse 0313003.HXP · [lien](https://ch.farnell.com/fr-CH/littelfuse/0313003-hxp/fusible-cartouche-tempo-3a-250v/dp/3515939) | **3.10 le sachet de 10**, en 3,15 A · [recherche](https://www.conrad.ch/fr/search.html?search=fusible%206%2C3%20x%2032%20mm%203%2C15%20A%20temporis%C3%A9) | 0.94 (T3A, dès le 09/11) · [recherche](https://www.reichelt.com/ch/en/shop/search/Fuse%206.3x32mm%203A%20Slow-blow) |
-| Fusible 7 A temporisé, 3AG | 1.24 · Littelfuse 0313007.HXP · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0313007.HXP?qs=qI%252BDxnNls1%2FxPz%2F3%2FU%2FQaQ%3D%3D) | 1.23 · Littelfuse 0313007.HXP · [lien](https://ch.farnell.com/fr-CH/littelfuse/0313007-hxp/fusible-cartouche-tempo-7a-250v/dp/2762020) | n.v. | n.v. |
-| Fusible 8 A rapide, 3AG | 0.443 · Littelfuse 0312008.HXP · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0312008.HXP?qs=OJFHm2hVE4HQD4IUOZg1nA%3D%3D) | 0.606 · même réf. · ⚠️ stock US : 10 à 14 jours ouvrés · [lien](https://ch.farnell.com/fr-CH/littelfuse/0312008-hxp/cartridge-fuse-fast-acting-8a/dp/1149686) | n.v. | n.v. |
-| Fusible 3/4 A rapide, 3AG | 0.443 · Littelfuse 0312.750HXP · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0312.750HXP?qs=YKoktUZms5IHRFJHqQyd%252Bw%3D%3D) | 0.589 · même réf. · ⚠️ stock US · [lien](https://ch.farnell.com/fr-CH/littelfuse/0312-750hxp/cartridge-fuse-fast-acting-0-75a/dp/1149676) | n.v. | n.v. |
+| 0,22 Ω 1 W | **0.233** (0.147 dès 10) · Yageo KNP100JR-73-0R22 · Ø4,6 × 11,5 mm · **min. 1** · [lien](https://www.mouser.ch/en/ProductDetail/YAGEO/KNP100JR-73-0R22?qs=wcZjbqjoJehe%2FtK%2F9xdtBg%3D%3D) | **0.096** · Multicomp Pro MCKNP01WJ022KA10, bobinée · Ø5 × 12 mm · **min. 1** · [lien](https://ch.farnell.com/fr-CH/multicomp-pro/mcknp01wj022ka10/resistance-bobinee-0r22-5-1w/dp/1903680) | 0.136 · Yageo KNP100JT-73-0R22 · ⚠️ **min. 100, par multiples de 100 : CHF 13.64 minimum** · [lien](https://www.conrad.ch/fr/p/yageo-knp100jt-73-0r22-resistance-bobinee-0-22-sortie-axiale-0411-1-w-5-1-pc-s-tape-3464411.html) | — En stock, rien qui tienne : la plus courte est une 7 W de 19,3 mm. Vitrohm 3 W, 12,6 × Ø5,5 mm (tient), à 0.20 : **attendue le 16/11** (09/11) · [lien](https://www.reichelt.com/ch/fr/shop/produit/resistance_bobinee_axiale_3_w_0_22_ohm_5_-277708) |
+| 2N5401 | 0.145 · Diotec · [lien](https://www.mouser.ch/en/ProductDetail/Diotec-Semiconductor/2N5401?qs=OlC7AqGiEDkcJQvsxuzVvg%3D%3D) | 0.124 · Diotec · ⚠️ **min. 5 : CHF 0.62** · [lien](https://ch.farnell.com/fr-CH/diotec-semiconductor/2n5401/transistor-pnp-150v-0-6a-to-92/dp/4710237) | 0.037 · ⚠️ **min. 100 : CHF 3.70 minimum** · [lien](https://www.conrad.ch/fr/p/diotec-transistor-bjt-discret-2n5401-to-92-pnp-2808997.html) | 0.05 · CDIL, en stock (09/11) · [lien](https://www.reichelt.com/ch/fr/shop/produit/transistor_bipolaire_pnp_160v_0_6a_0_625w_to-92-2053) |
+| 1N4004 | 0.137 (0.058 dès 10) · Diotec · [lien](https://www.mouser.ch/en/ProductDetail/Diotec-Semiconductor/1N4004?qs=OlC7AqGiEDk3eaZusDVIWQ%3D%3D) | 0.202 (0.0875 dès 10) · onsemi 1N4004RL · min. 5 · [lien](https://ch.farnell.com/fr-CH/onsemi/1n4004rl/diode-1a-400v/dp/9556109) | 0.03 · ⚠️ **min. 70 : CHF 2.10 minimum** · [lien](https://www.conrad.ch/fr/p/diotec-diode-de-redressement-si-1n4004-do-204al-400-v-1-a-162248.html) | **0.02** · en stock (09/11) · [lien](https://www.reichelt.com/ch/fr/shop/produit/diode_de_redressement_do41_400_v_1_a-1726) |
+| 68 Ω ½ W | 0.29 · Vishay NFR25H, 0,5 W confirmé · [lien](https://www.mouser.ch/en/ProductDetail/Vishay-BC-Components/NFR25H0006809JR500?qs=gQQ%2FpDEpiRKwYWNGueF5Vg%3D%3D) | 0.0531 · Multicomp Pro MCF, carbone 0,5 W · ⚠️ **min. 5 : CHF 0.27** · [lien](https://ch.farnell.com/fr-CH/multicomp-pro/mcf-0-5w-68r/resistance-0-5w-5-68r/dp/9338918) | 0.04 · Weltron 405116 · ⚠️ **min. 70 : CHF 2.80 minimum** · [lien](https://www.conrad.ch/fr/p/resistance-a-couche-carbone-weltron-405116-68-sortie-axiale-0411-0-5-w-1-pc-s-405116.html) | 0.08 · METALL 68,0, couche métallique 0,6 W · [lien](https://www.reichelt.com/ch/fr/shop/produit/resistance_a_film_metallique_68_0_ohms-11938) |
+| 220 Ω **½ W** | 0.08 · Yageo CFR-50JB-52-220R, carbone 0,5 W · [lien](https://www.mouser.ch/en/ProductDetail/YAGEO/CFR-50JB-52-220R?qs=oypCK0zG326TESPIftbMYg%3D%3D) (Vishay NFR25H à 0.378 : en rupture le 07/11) | 0.0535 · Multicomp Pro MCF, carbone 0,5 W · ⚠️ **min. 5 : CHF 0.27** · [lien](https://ch.farnell.com/fr-CH/multicomp-pro/mcf-0-5w-220r/resistance-0-5w-5-220r/dp/9338594) | ⚠️ seulement du ¼ W relevé (0.02, TRU Components) : **ne convient pas** · [recherche](https://www.conrad.ch/fr/search.html?search=r%C3%A9sistance%20220%20ohm%200%2C25W) | **0.07** · METALL 220, **0,6 W** : convient · [lien](https://www.reichelt.com/ch/fr/shop/produit/resistance_a_film_metallique_de_220_ohms-11627) |
+| 2,7 kΩ ¼ W | 0.112 · Yageo CFR25SJT · [lien](https://www.mouser.ch/en/ProductDetail/YAGEO/CFR25SJT-26-2K7?qs=xZ%2FP%252Ba9zWqYr54wciWJIlQ%3D%3D) | 0.0324 · Multicomp Pro MCF, carbone · ⚠️ **min. 10 : CHF 0.32** · [lien](https://ch.farnell.com/fr-CH/multicomp-pro/mcf-0-25w-2k7/resistance-0-25w-5-2k7/dp/9339361) | — | **0.06** · METALL 2,70K (Yageo), couche métallique 0,6 W · [lien](https://www.reichelt.com/ch/fr/shop/produit/resistance_a_film_metallique_de_2_70_kohms-11599) |
+| Fusible 5 A temporisé, 3AG (6,3 × 32) | 1.24 · Littelfuse 0313005.HXP, verre · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0313005.HXP?qs=8QfiMw8FY5OwXK2QPOUCgQ%3D%3D) (Schurter 0001.2531 : 4.02) | 1.22 (0.978 dès 5) · Littelfuse 0313005.HXP, verre · [lien](https://ch.farnell.com/fr-CH/littelfuse/0313005-hxp/fusible-cartouche-tempo-5a-250v/dp/3515943) | **3.10 le sachet de 10** · Püschel FSUT5,0B · [recherche](https://www.conrad.ch/fr/search.html?search=fusible%206%2C3%20x%2032%20mm%205%20A%20temporis%C3%A9) | 1.32 · KU-TR 5,0A, céramique, en stock (09/11) · [lien](https://www.reichelt.com/ch/fr/shop/produit/fusible_g_6_3_x_32_mm_retarde_5_000_a-119403) |
+| Fusible 3 A temporisé, 3AG (6,3 × 32) | 1.10 · Littelfuse 0313003.HXP, **3 A exact**, verre · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0313003.HXP?qs=WtG364jHAdzb9YdwG1OIXA%3D%3D) | 1.23 (0.872 dès 5) · Littelfuse 0313003.HXP · [lien](https://ch.farnell.com/fr-CH/littelfuse/0313003-hxp/fusible-cartouche-tempo-3a-250v/dp/3515939) | **3.10 le sachet de 10**, en 3,15 A · [recherche](https://www.conrad.ch/fr/search.html?search=fusible%206%2C3%20x%2032%20mm%203%2C15%20A%20temporis%C3%A9) | 0.93 · Littelfuse 0313003.HXP, verre · **attendu le 23/11** · [lien](https://www.reichelt.com/ch/en/shop/product/fuse_6_3x32mm_3a_slow-blow_313-242005) |
+| Fusible 7 A temporisé, 3AG | 1.24 · Littelfuse 0313007.HXP · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0313007.HXP?qs=qI%252BDxnNls1%2FxPz%2F3%2FU%2FQaQ%3D%3D) | 1.23 · Littelfuse 0313007.HXP · [lien](https://ch.farnell.com/fr-CH/littelfuse/0313007-hxp/fusible-cartouche-tempo-7a-250v/dp/2762020) | n.v. | 1.27 · Littelfuse 0313007.HXP, en stock (09/11) · [lien](https://www.reichelt.com/ch/en/shop/product/fuse_6_3x32mm_7a_slow-blow_313-242006) |
+| Fusible 8 A rapide, 3AG | 0.443 · Littelfuse 0312008.HXP · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0312008.HXP?qs=OJFHm2hVE4HQD4IUOZg1nA%3D%3D) | 0.606 · même réf. · ⚠️ stock US : 10 à 14 jours ouvrés · [lien](https://ch.farnell.com/fr-CH/littelfuse/0312008-hxp/cartridge-fuse-fast-acting-8a/dp/1149686) | n.v. | 0.71 · ESKA 632.026, verre, en stock (09/11) · [lien](https://www.reichelt.com/ch/fr/shop/produit/fusible_fin_6_3_x_32_mm_rapide_f_8_a_-278900) |
+| Fusible 3/4 A rapide, 3AG | 0.443 · Littelfuse 0312.750HXP · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0312.750HXP?qs=YKoktUZms5IHRFJHqQyd%252Bw%3D%3D) | 0.589 · même réf. · ⚠️ stock US · [lien](https://ch.farnell.com/fr-CH/littelfuse/0312-750hxp/cartridge-fuse-fast-acting-0-75a/dp/1149676) | n.v. | — (rapides en 0,63 A ou 0,8 A seulement) |
 | Fusible 3/8 A rapide, 3AG | 0.973 · Littelfuse 0312.375HXP · [lien](https://www.mouser.ch/en/ProductDetail/Littelfuse/0312.375HXP?qs=qI%252BDxnNls1%2FlVvJlY8L2IA%3D%3D) | ⚠️ **par 100 seulement : CHF 78.70**, stock US · [lien](https://ch.farnell.com/fr-CH/littelfuse/0312-375hxp/cartridge-fuse-fast-acting-0-375a/dp/1149673) | n.v. | — (pas de 375 mA en 6,3 × 32) |
 | Tresse à dessouder | 2.15 · Soldered 555022, 2 mm · [lien](https://www.mouser.ch/en/ProductDetail/Soldered/555022?qs=bDnubaabCY%2F8xXsgLHlzZQ%3D%3D) | 5.68 · Multicore NC-AB, 1,88 mm × 1,5 m · [lien](https://ch.farnell.com/fr-CH/multicore-loctite/nc-ab-wick-1-88mm-x-1-5m/braid-desoldering-1-5m-1-88mm/dp/252499) | **2.10** · [recherche](https://www.conrad.ch/fr/search.html?search=tresse%20%C3%A0%20dessouder) | 4.25 · [recherche](https://www.reichelt.com/ch/en/shop/search/desoldering%20braid) |
 | Flux en stylo | 6.40 · Chip Quik CQ4LF, 10 ml · [lien](https://www.mouser.ch/en/ProductDetail/Chip-Quik/CQ4LF?qs=sGAEpiMZZMtyU1cDF2RqUKX7eE1PyzPuDUbrgOk06lw%3D) | — (seulement des stylos vides, rechargeables, Bonkote : 78.03 les 5) | — | **5.96** · Stannol X32-10i, 10 ml, sans nettoyage · [lien](https://www.reichelt.com/ch/fr/shop/produit/crayon_a_flux_stannol_x32-10i_10_ml-96335) |
 | Soudure au plomb | **11.21** · Chip Quik SMDSW.031, 63/37, 0,8 mm, 28 g · [lien](https://www.mouser.ch/en/ProductDetail/Chip-Quik/SMDSW.031-1oz.period?qs=8BX3xQzFIvnKjoNZf181FQ%3D%3D) | 34.65 · Multicore 60/40, 0,71 mm, 250 g · [lien](https://ch.farnell.com/fr-CH/multicore-loctite/x-39-60en-2c-0-7mm-r-250g/bobine-soudure-x39-250g/dp/289840) | — | — |
 | **Frais de port** | 23.00 (gratuit dès CHF 70) · **pas de supplément** (lu au panier) | **11.99** (gratuit dès CHF 50 d'après le panier) · pas de supplément · TVA ajoutée et affichée au panier | 9.95 **+ supplément petite quantité CHF 7.00 si le panier est inférieur à CHF 35 TTC** (testé au panier) | **9.50** (prix en francs ; € 10.37 en euros), DPD jusqu'à 10 kg · ni douane ni TVA à l'import · ni minimum ni supplément dans les conditions générales (09/11) ; panier non testé |
-| **Quantité minimale** | 1 par pièce (vérifié sur la 0,22 Ω) | 1 sur le TIP36C, la 0,22 Ω et les fusibles ; **5** sur le 2N5401, la 1N4004, la 68 Ω et la 220 Ω ; **10** sur la 2,7 kΩ (vérifié au panier) | **70 à 100** sur la 0,22 Ω, le 2N5401, la 1N4004 et la 68 Ω ; 1 sur le TIP36C et la 220 Ω | 1 (non testé au panier) |
+| **Quantité minimale** | 1 par pièce (vérifié sur la 0,22 Ω) | 1 sur le TIP36C, la 0,22 Ω et les fusibles ; **5** sur le 2N5401, la 1N4004, la 68 Ω et la 220 Ω ; **10** sur la 2,7 kΩ (vérifié au panier) | **70 à 100** sur la 0,22 Ω, le 2N5401, la 1N4004 et la 68 Ω ; 1 sur le TIP36C et la 220 Ω | 1 (vente à l'unité d'après les fiches ; panier non testé) |
 
 ## 5. Scénarios de commande (CHF, port compris)
 
@@ -176,12 +185,14 @@ Détail Conrad « minimum » : 2 TIP36C 3.50 + 100 résistances 0,22 Ω 13.64 + 
 
 | Combinaison | Total | Colis | Ce qui manque |
 |---|---|---|---|
+| **Reichelt seul** (liste C, après le 16/11) | **≈ 34.51** | 1 | Fusibles 3/4 A et 3/8 A (réserves) |
 | **Farnell + Reichelt** (Reichelt : flux et 2 TIP36C) | **≈ 48.94** | 2 | Fusible 3/8 A (réserve) |
 | Farnell + Reichelt (Reichelt : flux seul) | ≈ 52.00 | 2 | Fusible 3/8 A (réserve) |
 | Mouser seul | 55.31 hors TVA, **≈ 59.79** si la TVA s'ajoute à la caisse | 1 | Rien |
 | Farnell seul | 36.54 | 1 | **Flux**, fusible 3/8 A |
 
-**Recommandation (09/11) : Farnell + Reichelt si l'on veut payer le moins ; Mouser seul si l'on préfère un seul colis.**
+**Recommandation (09/11) : Reichelt seul (liste C) si l'on peut attendre le 16/11. Sinon, Farnell + Reichelt (liste B), ou Mouser seul (liste A) pour un seul colis tout de suite.**
+- **Reichelt seul ≈ CHF 34.51 TVA comprise**, en un colis : de loin le moins cher. Mais la 0,22 Ω n'y revient en stock que le 16/11, d'après les prévisions de Reichelt, et les fusibles 3 A le 23/11. Il manque deux fusibles de réserve, le 3/4 A et le 3/8 A. Détail dans la « Liste C ».
 - **Farnell + Reichelt ≈ CHF 48.94 TVA comprise.** Chez Farnell : résistances, diodes, 2N5401 et fusibles. Chez Reichelt : le stylo de flux et les deux TIP36C. Détail dans la « Liste B », en fin de fichier.
 - **Mouser seul : CHF 55.31 hors TVA**, soit ≈ 59.79 si la TVA s'ajoute à la caisse. Un seul colis, avec le fusible 3/8 A. C'est ≈ 6 à 11 CHF de plus.
 - **Le flux, c'est ce qui coince chez Farnell** : il n'en vend pas. Les vendeurs suisses en ligne trouvés le vendent CHF 14 à 17 hors TVA, port en plus (RS, Simpex). Galaxus ne propose qu'un flux halogéné, par 2. Le stylo Stannol de Reichelt (CHF 5.96) est de loin le moins cher, et son port est en partie compensé par le TIP36C, deux fois moins cher qu'ailleurs.
@@ -190,7 +201,7 @@ Détail Conrad « minimum » : 2 TIP36C 3.50 + 100 résistances 0,22 Ω 13.64 + 
 - Le **fusible 3/8 A rapide** n'est vendu à l'unité ni chez Farnell (par 100) ni chez Reichelt (pas de 375 mA en 6,3 × 32 mm). Ce n'est qu'une réserve pour la carte d'affichage : il peut attendre une prochaine commande, par exemple avec les ampoules de flasher.
 - Mouser et Farnell vendent les mêmes fusibles Littelfuse 313, l'équivalent exact des Bussmann MDL d'origine.
 - Mouser et Farnell vendent la 0,22 Ω **à la pièce**, dans une taille qui tient entre les trous : Ø4,6 × 11,5 mm chez Mouser, Ø5 × 12 mm chez Farnell.
-- Reichelt seul ne suffit pas : il n'a la 0,22 Ω qu'en 5 W, trop longue pour la carte.
+- Reichelt seul ne suffit pas **aujourd'hui** (09/11) : aucune 0,22 Ω en stock ne tient entre les trous. La seule assez courte, une Vitrohm 3 W de 12,6 × Ø5,5 mm, est attendue le 16/11 : c'est elle qui permet la liste C.
 - Conrad ne redevient intéressant que si l'on veut vraiment 100 résistances 0,22 Ω.
 - Soudure au plomb : en stock, rien à acheter.
 
@@ -204,7 +215,8 @@ Détail Conrad « minimum » : 2 TIP36C 3.50 + 100 résistances 0,22 Ω 13.64 + 
 - [x] Panier Mouser monté le 07/11 : 14 lignes, toutes en stock, minimum 1 pièce partout, pas de supplément petite quantité. La 220 Ω Vishay, en rupture, est remplacée par une Yageo.
 - [x] Panier Farnell monté le 09/11 : 12 lignes en stock, CHF 36.54 TVA et port compris. Ni flux, ni fusible 3/8 A à l'unité.
 - [x] Flux introuvable chez Farnell : le stylo Stannol X32-10i est chez Reichelt (CHF 5.96), comme un TIP36C ST à 1.16 (09/11).
-- [ ] Choisir : Farnell + Reichelt (≈ CHF 48.94 TVA comprise, deux colis, sans le fusible 3/8 A) ou Mouser seul (un colis, ≈ 59.79 si la TVA s'ajoute).
+- [ ] Choisir, TVA comprise : liste A, Mouser (≈ 59.79, un colis, tout de suite) ; liste B, Farnell + Reichelt (≈ 48.94, deux colis, tout de suite) ; liste C, Reichelt seul (≈ 34.51, un colis, après le 16/11).
+- [ ] Si liste C : activer « Message en cas de disponibilité » sur la Vitrohm 0,22 Ω (attendue le 16/11) et sur le fusible 3 A (23/11).
 - [ ] Les paniers du navigateur intégré ont été perdus au redémarrage (09/11). Refaire celui de la liste choisie avec ses liens ; pour Mouser, le lien de partage suffit. Dans la liste B, les TIP36C se prennent chez Reichelt, pas chez Farnell.
 - [ ] Si Mouser, à la caisse : voir si la TVA (8,1 %) s'ajoute au total, et vérifier que les prix n'ont pas bougé.
 
@@ -226,6 +238,11 @@ Détail Conrad « minimum » : 2 TIP36C 3.50 + 100 résistances 0,22 Ω 13.64 + 
   - Aucun fusible 375 mA au format 6,3 × 32 mm.
   - Port vers la Suisse par DPD jusqu'à 10 kg : CHF 9.50 quand on choisit le franc, € 10.37 en euros. Sans douane ni TVA à l'import ([frais de port](https://www.reichelt.com/ch/en/shop/service/-12_28)).
   - Conditions générales relues : ni montant minimum ni supplément pour petite commande.
+  - Liste C, fiches relues le 09/11 :
+    - en stock : 2N5401 CDIL 0.05, 1N4004 0.02, METALL 68,0 / 220 / 2,70K (0,6 W) 0.08 / 0.07 / 0.06, fusibles KU-TR 5,0A 1.32, Littelfuse 0313007.HXP 1.27 et ESKA 632.026 (8 A rapide) 0.71 ;
+    - attendus : Littelfuse 0313003.HXP 0.93 (23/11), Vitrohm CR254 0,22 Ω 3 W, 12,6 × Ø5,5 mm, 0.20 (16/11) ;
+    - introuvables : 0,22 Ω en 1 ou 2 W, fusibles rapides 3/4 A et 375 mA en 6,3 × 32 mm.
+    - Ces résistances et ces composants se vendent à l'unité.
   - Panier non testé : le site refuse les clics automatisés.
 - **Flux chez d'autres vendeurs suisses** (09/11/2026) :
   - D'après une recherche web, non revérifié : [Stannol 10 ml chez RS](https://ch.rs-online.com/web/p/products/6647674), CHF 13.65 hors TVA ; [Chemtronics 9 g chez Simpex](https://www.simpex.ch/en/shop/production-technology/flux/chemtronics-bleifreier-flussmittel-spenderstift-9g/), CHF 14.90 hors TVA. Port en plus chez les deux.
@@ -243,28 +260,30 @@ Détail Conrad « minimum » : 2 TIP36C 3.50 + 100 résistances 0,22 Ω 13.64 + 
 - Port CH : CHF 23 sous CHF 70, gratuit dès CHF 70 (DDP). Pour notre petite commande, ≈ CHF 38 → moins intéressant que Mouser seul.
 - Source : résumé automatique de la page filtre Digi-Key, à revérifier avant commande.
 
-## 🛒 Listes de courses : deux options (09/11/2026)
+## 🛒 Listes de courses : trois options (09/11/2026)
 
-Pas encore décidé. Voici deux listes complètes, avec les mêmes pièces ou des équivalents vérifiés (voir « Variante Farnell » au § Compatibilité) :
+Pas encore décidé. Voici trois listes complètes, avec les mêmes pièces ou des équivalents vérifiés (voir « Variante Farnell » et « Liste C » au § Compatibilité) :
 - **Liste A** : tout chez **Mouser**, en un seul colis.
 - **Liste B** : **Farnell + Reichelt**. Reichelt fournit le stylo de flux, que Farnell ne vend pas, et les deux TIP36C, moins chers.
+- **Liste C** : tout chez **Reichelt**, en un seul colis. À commander **après le 16/11**, quand la 0,22 Ω revient en stock.
 
 Tous les montants sont en CHF, **TVA 8,1 % comprise**, port et supplément pour petite commande compris.
 
 ### Comparaison
 
-| | **Liste A : Mouser** | **Liste B : Farnell + Reichelt** |
-|---|---|---|
-| Pièces | 34.93 | 26.48 (Farnell 18.20 + Reichelt 8.28) |
-| Port | 24.86 (UPS, gratuit dès CHF 70 de pièces hors TVA) | 22.46 (Farnell 12.96 + Reichelt 9.50) |
-| Supplément petite commande | 0 (vérifié au panier le 07/11) | 0 chez Farnell (vérifié au panier le 09/11) ; 0 chez Reichelt d'après ses conditions générales (panier non testé) |
-| **Total TVA comprise** | **59.79** | **48.94**, soit **10.85 de moins** |
-| Colis | 1 | 2, voire 3 : le 8 A et le 3/4 A de Farnell partent des États-Unis |
-| Délai | Expédié des États-Unis par UPS. Le 09/11, Mouser annonce des retards possibles (trop de commandes) | Farnell : 2 à 3 jours ouvrés, 10 à 14 pour le 8 A et le 3/4 A. Reichelt : 3 à 4 jours ouvrés |
-| Ce qui manque | Rien | Le fusible 3/8 A rapide (réserve de la carte d'affichage) |
-| Comptes | 1 | 2 (tu as déjà commandé chez Reichelt) |
+| | **Liste A : Mouser** | **Liste B : Farnell + Reichelt** | **Liste C : Reichelt seul** |
+|---|---|---|---|
+| Pièces | 34.93 | 26.48 (Farnell 18.20 + Reichelt 8.28) | 25.01 |
+| Port | 24.86 (UPS, gratuit dès CHF 70 de pièces hors TVA) | 22.46 (Farnell 12.96 + Reichelt 9.50) | 9.50 |
+| Supplément petite commande | 0 (vérifié au panier le 07/11) | 0 chez Farnell (vérifié au panier le 09/11) ; 0 chez Reichelt d'après ses conditions générales (panier non testé) | 0 d'après les conditions générales (panier non testé) |
+| **Total TVA comprise** | **59.79** | **48.94** | **34.51** |
+| Colis | 1 | 2, voire 3 : le 8 A et le 3/4 A de Farnell partent des États-Unis | 1 |
+| Quand commander | Tout de suite | Tout de suite | Après le 16/11 (0,22 Ω). Les fusibles 3 A ne reviennent que le 23/11 |
+| Délai | Expédié des États-Unis par UPS. Le 09/11, Mouser annonce des retards possibles (trop de commandes) | Farnell : 2 à 3 jours ouvrés, 10 à 14 pour le 8 A et le 3/4 A. Reichelt : 3 à 4 jours ouvrés | 3 à 4 jours ouvrés, une fois tout en stock |
+| Ce qui manque | Rien | Le fusible 3/8 A rapide (réserve de la carte d'affichage) | Les fusibles 3/4 A et 3/8 A rapides (deux réserves) |
+| Comptes | 1 | 2 (tu as déjà commandé chez Reichelt) | 1 (déjà client) |
 
-*TVA chez Mouser :* son panier ne l'affiche pas. Les 59.79 supposent qu'elle s'ajoute à la caisse, comme la [règle suisse](https://www.eurofiscalis.com/en/sell-ddp-switzerland/) le prévoit pour un vendeur qui livre droits et taxes payés. Sans TVA, la liste A coûterait 55.31 et la liste B resterait moins chère de 6.37.
+*TVA chez Mouser :* son panier ne l'affiche pas. Les 59.79 supposent qu'elle s'ajoute à la caisse, comme la [règle suisse](https://www.eurofiscalis.com/en/sell-ddp-switzerland/) le prévoit pour un vendeur qui livre droits et taxes payés. Sans TVA, la liste A coûterait 55.31 : les listes B et C resteraient moins chères.
 
 *Paniers :* ceux du navigateur intégré ont été perdus quand l'application a redémarré, le 09/11. On les refait avec les liens ci-dessous. Pour Mouser, le lien de partage remet tout le panier d'un coup.
 
@@ -354,7 +373,41 @@ Sur **reichelt.com/ch**, en choisissant le franc en haut de la page. Prix affich
 - **Minimums Farnell :** le 2N5401, la 68 Ω et la 220 Ω se vendent par 5, la 2,7 kΩ par 10. Ça fait plus de réserve que chez Mouser, pour quelques centimes.
 - **Port gratuit Farnell :** il manque CHF 33.16 de pièces hors TVA. La page d'aide de Farnell dit encore CHF 75, mais le panier et les fiches produit disent 50.
 
-### Pour les deux listes
+### Liste C — tout chez Reichelt (1 colis, après le 16/11)
+
+Sur **reichelt.com/ch**, en choisissant le franc en haut de la page. Prix affichés **TVA comprise**, sans douane ni TVA à l'import. Port DPD vers la Suisse : CHF 9.50 jusqu'à 10 kg. Prix et stocks relevés le 09/11/2026.
+
+| ✓ | Qté | Article | Réf. | Stock le 09/11 | Prix TTC (CHF) | Lien |
+|---|---|---|---|---|---|---|
+| [ ] | 2 | Transistor TIP36C, TO-247 (Q82) | STMicroelectronics **TIP36C** | En stock | 2 × 1.16 = 2.32 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/transistor_de_puissance_pnp_100v_25a_125w_to-247-21503) |
+| [ ] | 4 | Résistance 0,22 Ω **3 W** bobinée, 12,6 × Ø5,5 mm (R153) | Vitrohm **CR254** (CRS300JT-73-R22AA) | ⏳ **Attendue le 16/11** | 4 × 0.20 = 0.80 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/resistance_bobinee_axiale_3_w_0_22_ohm_5_-277708) |
+| [ ] | 2 | Transistor 2N5401, TO-92 (réserve Q71) | CDIL **2N5401** | En stock | 2 × 0.05 = 0.10 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/transistor_bipolaire_pnp_160v_0_6a_0_625w_to-92-2053) |
+| [ ] | 10 | Diode 1N4004 (réserve) | **1N4004**, sans marque | En stock | 10 × 0.02 = 0.20 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/diode_de_redressement_do41_400_v_1_a-1726) |
+| [ ] | 2 | Résistance 68 Ω 0,6 W, couche métallique (réserve R124) | Réf. Reichelt **METALL 68,0** | En stock | 2 × 0.08 = 0.16 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/resistance_a_film_metallique_68_0_ohms-11938) |
+| [ ] | 2 | Résistance 220 Ω 0,6 W, couche métallique (réserve R125) | Réf. Reichelt **METALL 220** | En stock | 2 × 0.07 = 0.14 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/resistance_a_film_metallique_de_220_ohms-11627) |
+| [ ] | 2 | Résistance 2,7 kΩ 0,6 W, couche métallique (réserve R123) | Yageo **MF0207FTE52-2K7** (METALL 2,70K) | En stock | 2 × 0.06 = 0.12 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/resistance_a_film_metallique_de_2_70_kohms-11599) |
+| [ ] | 5 | Fusible 5 A temporisé, 6,3 × 32 mm, **céramique** (F108 + réserve) | Réf. Reichelt **KU-TR 5,0A** | En stock | 5 × 1.32 = 6.60 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/fusible_g_6_3_x_32_mm_retarde_5_000_a-119403) |
+| [ ] | 5 | Fusible 3 A temporisé 250 V, 6,3 × 32 mm, verre (réserve) | Littelfuse **0313003.HXP** | ⏳ **Attendu le 23/11** | 5 × 0.93 = 4.65 | [ouvrir](https://www.reichelt.com/ch/en/shop/product/fuse_6_3x32mm_3a_slow-blow_313-242005) |
+| [ ] | 2 | Fusible 7 A temporisé 250 V, 6,3 × 32 mm, verre (réserve F112) | Littelfuse **0313007.HXP** | En stock | 2 × 1.27 = 2.54 | [ouvrir](https://www.reichelt.com/ch/en/shop/product/fuse_6_3x32mm_7a_slow-blow_313-242006) |
+| [ ] | 2 | Fusible 8 A **rapide**, 6,3 × 32 mm, verre (réserve F114) | ESKA **632.026** | En stock | 2 × 0.71 = 1.42 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/fusible_fin_6_3_x_32_mm_rapide_f_8_a_-278900) |
+| [ ] | 1 | Stylo de flux sans nettoyage, sans halogène, 10 ml | Stannol **X32-10i** (830322) | En stock | 5.96 | [ouvrir](https://www.reichelt.com/ch/fr/shop/produit/crayon_a_flux_stannol_x32-10i_10_ml-96335) |
+| | | **Pièces** | | | **25.01** | |
+| | | Port DPD vers la Suisse (jusqu'à 10 kg) | | | 9.50 | |
+| | | Supplément petite commande | | | 0.00 | |
+| | | **Total TVA comprise** | | | **34.51** | |
+
+#### À savoir pour la liste C
+
+- **Deux retours en stock à attendre :** la 0,22 Ω Vitrohm (annoncée le 16/11) et les fusibles 3 A (23/11). Ce sont des prévisions de Reichelt. Le bouton « Message en cas de disponibilité » de chaque fiche envoie un e-mail au retour en stock. Les fusibles 3 A ne sont que des réserves : sans eux, on peut commander dès le 16/11, pour CHF 29.86.
+- **Ce qui manque :** les fusibles rapides 3/4 A (F115) et 3/8 A (F601–F602), deux réserves. En rapide 6,3 × 32 mm, Reichelt n'a que du 0,63 A ou du 0,8 A, et aucun 375 mA. Je n'ai pas mis le 0,8 A : ce n'est pas le même calibre.
+- **Ce qui change par rapport aux listes A et B** (vérifié, voir « Liste C » au § Compatibilité) :
+  - la 0,22 Ω est en 3 W au lieu de 1 W : même valeur, plus de marge, et pourtant plus petite que l'originale ;
+  - les résistances de réserve sont à couche métallique 0,6 W ;
+  - le fusible 5 A est en céramique au lieu de verre : même format, il supporte simplement mieux un gros court-circuit ;
+  - le 2N5401 est de marque CDIL : vérifier son brochage E-B-C avant de le souder, comme pour la Diotec.
+- **Minimum de commande :** un vieux message de forum parle de € 10. Cette commande le dépasse largement.
+
+### Pour toutes les listes
 
 **Pas chez ces distributeurs :**
 - [ ] Alcool isopropylique (pharmacie ou droguerie, 99 % si possible).

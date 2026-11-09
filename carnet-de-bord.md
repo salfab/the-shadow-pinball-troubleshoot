@@ -224,8 +224,24 @@ Aucune bobine trop basse, donc aucune ne peut griller un transistor.
   - certaines résistances bon marché partent de l'entrepôt américain de Farnell (10 à 14 jours) ;
   - plusieurs pièces ne se vendent que par 5 ou par 10.
 
+### Et le flux ?
+
+- Je ne pense pas trouver de flux pour l'électronique en magasin ici, en Suisse.
+- En ligne, les vendeurs suisses trouvés le vendent CHF 14 à 17 hors TVA, plus le port.
+- Reichelt a le stylo Stannol X32-10i à CHF 5.96. Son TIP36C (STMicroelectronics) ne coûte que CHF 1.16, contre 2.49 chez Farnell : autant les prendre là-bas aussi.
+- Bilan, pièces + fusibles de réserve + flux :
+  - Farnell + Reichelt : **≈ CHF 48.94 TVA comprise**, en deux colis, sans le fusible 3/8 A ;
+  - tout chez Mouser : ≈ 59.79 si la TVA s'ajoute à la caisse, en un seul colis.
+
+### Et tout chez Reichelt ?
+
+- Reichelt a presque tout, mais aujourd'hui aucune 0,22 Ω qui tienne sur la carte. Il ne les a qu'en 5 W ou plus, longues de 19 à 60 mm, alors qu'il n'y a que 20 mm entre les trous.
+- La seule qui conviendrait, une Vitrohm 3 W de 12,6 × Ø5,5 mm, est annoncée pour le 16/11. Les fusibles 3 A Littelfuse reviennent le 23/11.
+- Une commande tout chez Reichelt après ces dates reviendrait à **CHF 34.51 TVA comprise**, en un seul colis. Il manquerait deux fusibles de réserve (3/4 A et 3/8 A).
+
 ### Ce que j'en retiens
 
 - Sur une petite commande, le port pèse plus lourd que les pièces : chez Mouser, CHF 23 de port pour CHF 24 de composants.
 - Avant de comparer deux paniers, regarder si les prix sont affichés avec ou sans TVA : Farnell l'ajoute au panier, Mouser ne l'affiche pas.
+- Le flux vendu en magasin de bricolage sert à la plomberie. Il est souvent acide et ronge les pistes : jamais sur une carte électronique.
 
