@@ -198,3 +198,34 @@ Aucune bobine trop basse, donc aucune ne peut griller un transistor.
 - `photos/2026-11-05_S3_*.jpg` (carte en place, sortie, côté pistes, marquages).
 - Annotées : `photos/2026-11-05_annotee_*.jpg`, `plan-PD_TP6-TP5_condensateurs.png`, `plan-PD_R151-R153.png`, `plan-PD_Q91-Q98_colonnes.png`.
 
+## Samedi 7 novembre 2026 — la commande
+
+### Le panier Mouser
+
+- La liste de courses finale tient en une seule commande chez Mouser : les pièces de la carte, 20 fusibles de réserve et un stylo de flux. La tresse et la soudure au plomb sont déjà en stock.
+- Les calibres des fusibles de réserve viennent de la liste des fusibles du manuel (p. 1-52). Les quatre qui manquaient (7 A temporisé, 8 A, 3/4 A et 3/8 A rapides) existent dans les mêmes séries Littelfuse que les autres.
+- Panier monté dans le navigateur intégré : 14 lignes, toutes en stock. Seul accroc : la 220 Ω ½ W prévue était en rupture ; remplacée par une équivalente au carbone (CHF 0.08 au lieu de 0.38).
+- Total : CHF 32.31 de pièces + 23.00 de port = **CHF 55.31**, plus la TVA si Mouser l'ajoute à la caisse. Un lien de partage permet de retrouver le panier tout fait.
+
+## Lundi 9 novembre 2026 — Farnell contre Mouser
+
+### Le même panier, ailleurs
+
+- Avant de commander, j'ai comparé avec Farnell (ch.farnell.com).
+  - 12 des 14 lignes y sont en stock, parfois sous une autre marque : des résistances Multicomp Pro au lieu de Yageo et Vishay, de même valeur et de même puissance.
+  - La 0,22 Ω de remplacement mesure Ø5 × 12 mm : elle tient entre les trous.
+- Panier monté dans le navigateur intégré : CHF 21.82 de pièces + 11.99 de port + 2.74 de TVA = **CHF 36.54**.
+  - Pour les mêmes 12 lignes, Mouser demande 46.96 hors TVA.
+  - L'écart tient surtout au port : 11.99 contre 23.00.
+- Ce qui manque chez Farnell :
+  - un stylo de flux prêt à l'emploi : il faudra l'acheter en magasin ;
+  - un fusible 3/8 A à l'unité : il n'est vendu que par 100. Ce n'est qu'une réserve pour la carte d'affichage.
+- Deux pièges vus en route :
+  - certaines résistances bon marché partent de l'entrepôt américain de Farnell (10 à 14 jours) ;
+  - plusieurs pièces ne se vendent que par 5 ou par 10.
+
+### Ce que j'en retiens
+
+- Sur une petite commande, le port pèse plus lourd que les pièces : chez Mouser, CHF 23 de port pour CHF 24 de composants.
+- Avant de comparer deux paniers, regarder si les prix sont affichés avec ou sans TVA : Farnell l'ajoute au panier, Mouser ne l'affiche pas.
+
