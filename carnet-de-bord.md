@@ -245,3 +245,8 @@ Aucune bobine trop basse, donc aucune ne peut griller un transistor.
 - Avant de comparer deux paniers, regarder si les prix sont affichés avec ou sans TVA : Farnell l'ajoute au panier, Mouser ne l'affiche pas.
 - Le flux vendu en magasin de bricolage sert à la plomberie. Il est souvent acide et ronge les pistes : jamais sur une carte électronique.
 
+## Mardi 10 novembre 2026 — un LM339 de réserve
+
+- U15 est un LM339 : il protège les rangées de lampes contre les surintensités, et il surveille justement l'émetteur de Q86. D'après mon analyse au journal (S3-U15), il n'a sans doute pas souffert : ses entrées supportent 36 V.
+- Une réserve ne coûte presque rien, alors j'en ajoute un aux trois listes : CHF 0.20 chez Reichelt, 0.51 chez Mouser. Nouveaux totaux, TVA comprise : liste A 60.34, liste B 49.14, liste C 34.71.
+
