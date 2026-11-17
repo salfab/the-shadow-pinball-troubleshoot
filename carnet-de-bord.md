@@ -248,5 +248,32 @@ Aucune bobine trop basse, donc aucune ne peut griller un transistor.
 ## Mardi 10 novembre 2026 — un LM339 de réserve
 
 - U15 est un LM339 : il protège les rangées de lampes contre les surintensités, et il surveille justement l'émetteur de Q86. D'après mon analyse au journal (S3-U15), il n'a sans doute pas souffert : ses entrées supportent 36 V.
+- Sur les photos du 25/10, U5, U11 et U15 sont soudées directement sur la carte, sans support. U15 est en fait une BA10339 de Rohm, l'équivalent du LM339. Si l'une d'elles doit être changée, on soudera un support à sa place : la puce neuve s'y enfiche ensuite sans être chauffée.
+- Le 15/11, dernière passe sur le papier : relecture complète du journal et du schéma de la matrice des lampes. Il reste une quinzaine de contrôles hors tension, dont le fusible F114 et la référence 1,4 V des protections de rangée, jamais regardés. Une hypothèse relie enfin plusieurs pannes : un contact entre la bobine du Mini Drop Bank et un fil de lampe aurait fait commuter la bobine par le pilote de lampes Q86, d'où la diode D11 brûlée, Q32 et Q86 claqués, R153 coupée et F103 fondu. Rien ne la prouve encore, et elle n'explique pas Q82.
 - Une réserve ne coûte presque rien, alors j'en ajoute un aux trois listes : CHF 0.20 chez Reichelt, 0.51 chez Mouser. Nouveaux totaux, TVA comprise : liste A 60.34, liste B 49.14, liste C 34.71.
 
+## Dimanche 15 novembre 2026 — la veille de commander
+
+- La liste C attendait la 0,22 Ω de Reichelt, annoncée pour le 16. Avant de commander, j'ai fait relire les stocks des trois listes. Reichelt l'annonce toujours pour le 16, et ses fusibles 3 A sont revenus avec une semaine d'avance.
+- Mauvaise surprise chez Farnell : sa 0,22 Ω est en rupture jusqu'au 17 décembre. La liste B doit donc la prendre chez Reichelt. Elle attend le 16, elle aussi, et n'a plus d'avantage sur la liste C.
+- Les réserves du 10 (74LS74, 74LS374, supports tulipe) ont maintenant leurs références et leurs prix. Des trois distributeurs, seul Mouser vend le 74LS374 ; Reichelt n'a que le 74HCT374, d'une autre famille.
+- En une semaine, les prix ont pris environ 3 % chez Mouser et 1 % chez Reichelt. Nouveaux totaux, TVA comprise : liste A 72.38, liste B 50.95, liste C 36.32.
+- Le panier Reichelt de la liste C est monté : 15 lignes sur 16, CHF 26.01 plus 9.50 de port. Il n'y a aucun supplément pour petite commande, enfin vérifié au panier. La 0,22 Ω ne peut s'ajouter qu'une fois en stock, donc demain, juste avant de commander.
+
+## Lundi 16 novembre 2026 — la 0,22 Ω se fait attendre
+
+- Le jour de commander. Le navigateur intégré était fermé, mais le panier Reichelt de la veille était toujours là : 15 lignes, CHF 26.01 plus 9.50 de port.
+- La 0,22 Ω n'est pas revenue : Reichelt l'annonce maintenant pour le 7 décembre, trois semaines plus tard que prévu. Ses autres 0,22 Ω mesurent toutes 19,3 mm ou plus, trop longues pour tenir à plat entre les trous de R153.
+- Farnell en a une en stock : une Vishay AC01 bobinée, 1 W comme l'originale, Ø4,3 × 11 mm, CHF 0.81 hors TVA la pièce. Quatre pièces reviennent à environ CHF 16.50 avec le port. Deux choix : le panier Reichelt et la 0,22 Ω de Farnell tout de suite (≈ CHF 52 en tout, deux colis), ou tout chez Reichelt après le 7 décembre (≈ CHF 36.32).
+- Je ne veux plus attendre : la 0,22 Ω viendra de Farnell. Le panier Farnell est monté à côté de celui de Reichelt : 4 Vishay AC01, CHF 16.46 avec le port et la TVA. Il me reste à créer mon compte Farnell, puis à commander des deux côtés, pour environ CHF 52 en tout.
+- Pourquoi pas tout chez Farnell, avec un seul colis ? Parce que Farnell n'a pas de stylo de flux prêt à l'emploi, seulement des stylos vides à remplir. Il faudrait donc une commande Reichelt de toute façon, et le total passerait à environ CHF 58. Reichelt est aussi bien moins cher sur le TIP36C et le LM339.
+- Et du flux d'une autre forme chez Farnell ? Son rayon « Flux de soudure » est vide en Suisse. La seule pâte en stock, une Duratool à CHF 1.48, est sans doute un flux de plomberie : la même pâte en 10 g contient 20 % de chlorure de zinc, un acide qui ronge les cartes. Le flux viendra donc de Reichelt.
+- Et chez Galaxus ? Du flux en stock, oui, et même le stylo Stannol de Reichelt, mais à 18 francs au lieu de 6. Le moins cher, une colophane Termopasty à 4.70, plus 4.90 de port, ferait revenir le « tout chez Farnell » à environ 51.40. C'est le prix de nos deux paniers, sans les supports et avec une pâte dont il faut nettoyer les résidus : pas d'économie. On garde donc les deux paniers, Reichelt et Farnell.
+- Dernier ajustement : les fusibles 3 A de F101 à F105 passent de 5 à 10 dans le panier Reichelt. À partir de 10, Reichelt les vend 0.648 pièce au lieu de 0.94 : 1.76 de plus pour deux fois plus de réserve, utile pour la remise sous tension. Panier Reichelt : CHF 27.77 plus 9.50 de port ; les deux commandes reviennent à environ CHF 53.73.
+- Puis les autres réserves, puisqu'elles ne coûtent presque rien : 5 TIP36C et 5 2N5401, 10 de chaque résistance, 5 LM339 et 5 74LS74. Pour les résistances, 10 coûtent même moins cher que 5, grâce au prix dégressif. Le site Reichelt a planté au milieu de la mise à jour (erreur 502) et n'a pris que trois lignes sur sept ; la seconde tentative a tout pris. Panier Reichelt : CHF 35.27 plus 9.50 de port ; les deux commandes reviennent à environ CHF 61.23.
+- Finalement, pas de 1N4004 : j'ai 24 1N4007 au tiroir, qui les remplacent sans problème (même série, même courant, 1000 V au lieu de 400 V). La ligne quitte le panier Reichelt, malgré une nouvelle erreur 502 du site : 14 lignes, CHF 35.10 plus 9.50 de port, environ CHF 61.06 pour les deux commandes.
+
+## Mardi 17 novembre 2026 — deux TIP107 en plus
+
+- Avant de commander, une dernière réserve : deux TIP107, les transistors qui alimentent les huit colonnes de lampes en +18 V. Ils sont sains, mais rien ne les protège si une colonne touche la masse pendant les essais. Reichelt n'en aura plus avant juin 2027, Farnell en a encore six : j'en ajoute deux au panier Farnell, pour CHF 3.10 de plus. Farnell passe à CHF 19.56, et les deux commandes à environ CHF 64.16.
+- Côté Reichelt, j'ai fait le compte de ce que je prends en réserve : environ CHF 26.60 sur 35.10. Seuls le TIP36C de Q82, le fusible 5 A de F108 et le stylo de flux (CHF 8.54) servent à coup sûr à cette réparation. Ce n'est donc pas pour économiser un port de 9.50 : c'est une assurance, pour ne pas attendre un colis si une pièce lâche pendant les essais.
