@@ -8,7 +8,7 @@
 
 ## 1. Commandes passées (17/11/2026)
 
-Documents de commande : `docs/commandes/` (PDF Reichelt, relevé Farnell).
+Documents de commande : `docs/commandes/reichelt_2026-11-17.md` et `farnell_2026-11-17.md` (transcriptions sans adresse, commitées). Le PDF Reichelt et la page HTML Farnell, qui contiennent l'adresse, restent en local (`.gitignore`).
 
 ### 1.1 Reichelt : commande I-939651, CHF 44.52
 
@@ -137,7 +137,7 @@ Pièces comparées à la **liste des pièces A-12697-3** (manuel, p. 2-8 : `docs
 
 ## Sources
 
-- Commandes : `docs/commandes/reichelt-I-939651_2026-11-17.pdf` (confirmation Reichelt) et `docs/commandes/farnell_2026-11-17.md` (relevé de la page de commande Farnell).
+- Commandes : `docs/commandes/reichelt_2026-11-17.md` et `farnell_2026-11-17.md`. Copies originales en local, non commitées : `reichelt-I-939651_2026-11-17.pdf` et `farnell_2026-11-17.html`.
 - Liste des pièces A-12697-3 (manuel, p. 2-8) et schéma de l'étage Sol 01–04 : `docs/`.
 - Cotes de la Vishay AC01 : fiche Farnell, relue le 16/11/2026 (Ø4,3 × 11 mm, bobinée cimentée, -55 à 250 °C).
 - Règles de port : [Reichelt](https://www.reichelt.com/ch/en/shop/service/-12_28), [Conrad](https://help.conrad.ch/hc/fr-ch/articles/360001281777-A-combien-s-%C3%A9l%C3%A8vent-les-frais-de-port-standard-chez-Conrad).
