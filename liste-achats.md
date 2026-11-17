@@ -41,9 +41,9 @@ Marchandise 13.45 HT + livraison standard 11.99 + TVA 2.06 = **CHF 27.50**. Pas 
 |---|---|---|---|---|---|---|
 | [ ] | 10 | 1735024 | Vishay **AC01000002207JA100**, 0,22 Ω 1 W 5 %, bobinée, Ø4,3 × 11 mm | R153 + 9 de réserve | 0.81 | [ouvrir](https://ch.farnell.com/fr-CH/search?st=1735024) |
 | [ ] | 2 | 1749430 | STMicroelectronics **TIP107**, Darlington PNP 100 V 8 A, TO-220 | Réserve Q91–Q98 | 1.43 | [ouvrir](https://ch.farnell.com/fr-CH/stmicroelectronics/tip107/trans-pnp-darl-100v-8a-to-220/dp/1749430) |
-| [ ] | 1 | (non relevé) | TIP36C, PNP 100 V 25 A, TO-247 | Réserve Q82 | ≈ 2.49 (déduit du total) | |
+| [ ] | 1 | 9936130 | STMicroelectronics **TIP36C**, PNP 100 V 25 A, TO-247 | Réserve Q82 | 2.49 | [ouvrir](https://ch.farnell.com/fr-CH/stmicroelectronics/tip36c/transistor-pnp-boitier-to-218/dp/9936130) |
 
-Les prix par ligne ne sont pas dans la page de la commande : ceux du TIP36C et de la ligne AC01 sont déduits du total, qui colle avec les prix du catalogue (10 × 0.81 + 2 × 1.43 + 2.49 = 13.45).
+Prix par ligne relevés dans la page de la commande : 2.49 + 10 × 0.81 + 2 × 1.43 = 13.45 HT.
 
 Pourquoi Farnell pour la 0,22 Ω : la Vitrohm de Reichelt a glissé du 16/11 au 7/12, alors que la Vishay AC01 est en stock et, **comme l'originale, de 1 W**. Pourquoi des TIP107 en réserve : les colonnes de lampes (+18 V) n'ont aucune protection, et Reichelt n'en a plus avant le 2/6/2027.
 
