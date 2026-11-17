@@ -263,7 +263,7 @@ Détail Conrad « minimum » : 2 TIP36C 3.50 + 100 résistances 0,22 Ω 13.64 + 
 - [x] 16/11 : fusibles 3 A (F101–F105) passés de 5 à 10 dans le panier Reichelt, pour le prix dégressif : CHF 27.77 + 9.50 de port.
 - [x] 16/11 : autres réserves augmentées dans le panier Reichelt (5 TIP36C, 5 2N5401, 10 de chaque résistance, 5 LM339, 5 74LS74) : CHF 35.27 + 9.50 de port.
 - [x] 16/11 : diodes 1N4004 retirées du panier Reichelt, 24 1N4007 au tiroir les remplacent (même courant, 1000 V au lieu de 400 V) : 14 lignes, CHF 35.10 + 9.50 de port.
-- [ ] Créer le compte Farnell dans le navigateur intégré, sur l'onglet du panier, pour que le panier suive. Puis commander chez Farnell (2 lignes, CHF 19.56) et chez Reichelt (14 lignes, CHF 44.60 port compris), une fois connecté à son compte Reichelt.
+- [ ] Créer le compte Farnell dans le navigateur intégré, sur l'onglet du panier, pour que le panier suive. Puis commander chez Farnell (2 lignes, CHF 19.56) et chez Reichelt (14 lignes, CHF 44.60 port compris ; relu le 17/11 : CHF 35.03 + 9.50 = **44.53**, quelques centimes de baisse), une fois connecté à son compte Reichelt.
 - [ ] Les paniers du navigateur intégré ont été perdus au redémarrage (09/11). Refaire celui de la liste choisie avec ses liens ; pour Mouser, le lien de partage suffit. Dans la liste B, les TIP36C et, depuis le 15/11, la 0,22 Ω se prennent chez Reichelt, pas chez Farnell.
 - [ ] Si Mouser, à la caisse : voir si la TVA (8,1 %) s'ajoute au total, et vérifier que les prix n'ont pas bougé.
 
