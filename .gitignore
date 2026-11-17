@@ -1,0 +1,5 @@
+
+# Documents de commande avec adresse et coordonnées : copies locales seulement
+# (leurs équivalents en Markdown, sans adresse, sont commités)
+docs/commandes/*.pdf
+docs/commandes/*.html
